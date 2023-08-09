@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "newFileLocation": "current",
   "newFileFolderPath": "Uncategorized",
-  "useTab": false
+  "useTab": false,
+  "alwaysUpdateLinks": true
 }

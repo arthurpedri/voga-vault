@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a4791c9cdde69d80",
+        "id": "0a874fb17366ce35",
         "type": "tabs",
         "children": [
           {
-            "id": "4c7debdb8ed6a4f2",
+            "id": "5eeac8ff4d4ecd9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Python Testing.md",
+                "file": "Math/Group Theory.md",
                 "mode": "source",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Python Testing.md",
+                "file": "Math/Group Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Python Testing.md",
+                "file": "Math/Group Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Python Testing.md"
+                "file": "Math/Group Theory.md"
               }
             }
           }
@@ -147,35 +147,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c7debdb8ed6a4f2",
+  "active": "5eeac8ff4d4ecd9e",
   "lastOpenFiles": [
-    "Code/Python Functions.md",
-    "Code/Python Operators.md",
-    "Daily Notes/08-08-2023.md",
-    "Code/Python Testing.md",
-    "Code/ChatGPT.md",
-    "Untitled.canvas",
-    "Uncategorized/Markdown Cheatsheet.md",
-    "Code/Python Scope.md",
-    "Code/Python Exceptions.md",
-    "Daily Notes/07-08-2023.md",
-    "Code/Python Classes.md",
-    "Code/Python.md",
-    "Code/Namespaces.md",
     "Daily Notes/31-07-2023.md",
-    "Learning/Zettelkasten Method.md",
-    "Learning/Permanent Notes.md",
-    "Learning/Conceptual Notes.md",
-    "Code/Sets.md",
-    "Uncategorized/TODO List.md",
-    "Uncategorized/Obsidian Notes.md",
-    "Learning/Fleeting Notes.md",
-    "Learning/Literature Notes.md",
+    "Math/Group Theory.md",
+    "Math",
+    "Daily Notes/08-08-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Code/Python Scope.md",
     "Code/Javascript.md",
+    "Code/JS DOM.md",
+    "Code/Code Optimization.md",
+    "Code/Hash Tables.md",
+    "Code/Git README.md",
+    "Code/ChatGPT.md",
+    "Code/CSS.md",
+    "Uncategorized/Markdown Cheatsheet.md",
+    "Code/Namespaces.md",
+    "Code/HTML.md",
+    "Code/Dynamic Programming.md",
+    "Code/GIT.md",
     "Code/Pep8.md",
-    "Code/Polymorphism.md",
-    "Daily Notes/01-08-2023.md",
-    "Daily Notes/03-08-2023.md",
+    "Learning/Conceptual Notes.md",
+    "Uncategorized/Obsidian Notes.md",
+    "Code/Python.md",
+    "Code/Naming in Code.md",
+    "Code/Python Functions.md",
+    "Learning/Zettelkasten Method.md",
+    "Learning/Fleeting Notes.md",
+    "Learning/Permanent Notes.md",
+    "Untitled.canvas",
     "Code",
     "Uncategorized",
     "Learning",

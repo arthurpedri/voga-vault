@@ -1,0 +1,9 @@
+- ==**Most of these are suggestions, not hard rules.**==
+- You spend more time reading than writing code.
+- Abbreviations used to help when it was necessary to rewrite, now we have autocomplete and big screens.
+- Better to write descriptive names.
+- Putting types in variables is not needed in statically typed languages.
+- Units in variables are very useful. Ex: ==delaySeconds==.
+- Names with "Base" or "Abstract" are unhelpful and if a parent can't be properly named, we should review the name of the child.
+- In a similar vein, "Utils" and "Helper" names can usually be specified and made more explicit by refactoring.
+- Good use of verbs in functions is very useful. Ex: verbNoun.
