@@ -1,7 +1,7 @@
 ## Doing less
 from [going fast is about doing less](https://www.youtube.com/watch?v=5rb0vvJ7NCY)
 - Start with brute force recursion.
-- Use a cache to reduce rework. [[Dynamic Programming]]
+- Use a cache to reduce rework. [[Memoization]]
 - More caching by removing values used on keys and putting them on values so we can compare similar states and remove ones that may be fundamentally less useful. In the example of the video, the same state while having less time elapsed is always better. 
 - Reduce size of keys to reduce the hashing overhead and improves the hash function by copying the keys more efficiently.
 - Domain knowledge can be use to set maximum bounds on branches and remove the branches that have a maximum that is less than what has already been achieved by other branches.

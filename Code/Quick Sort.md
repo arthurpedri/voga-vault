@@ -1,0 +1,4 @@
+- Moves smaller elements than it to the left of a pivot (can be any, usually the last element).
+- Recursively divides array in 2 partitions excluding the pivot, which is already correctly sorted.
+- The logic for solving the partition is: starting from leftmost element and keeping track of the index of smaller (or equal) elements with another index. While traversing, if we find a smaller element, swap the current element with the element at the smaller index until we find the pivot.
+- When we traverse until the pivot, swap the pivot with the smaller index, such that the pivot is correctly sorted, even if the rest of the partition isn't. e.g. \[3,2, ==**5**==,7,6,9] with 5 as pivot.

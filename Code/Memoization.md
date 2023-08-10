@@ -1,0 +1,2 @@
+- **Memoize** (remember) & re-use solutions to sub-problems that help solve the problem.
+- Caching results of expensive functions, usually used with recursion.
