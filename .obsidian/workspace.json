@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "297a744129be5d4c",
+            "id": "aab00c423e962b60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Logarithms.md",
-                "mode": "preview",
-                "source": true
+                "file": "Code/Pointers.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Logarithms.md",
+                "file": "Code/Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Logarithms.md",
+                "file": "Code/Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Logarithms.md"
+                "file": "Code/Pointers.md"
               }
             }
           }
@@ -147,9 +147,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "297a744129be5d4c",
+  "active": "aab00c423e962b60",
   "lastOpenFiles": [
+    "Code/Reference.md",
+    "Code/Pointers.md",
+    "Code/Hexadecimal.md",
+    "Daily Notes/10-08-2023.md",
+    "Code/Threads.md",
+    "Code/Python Testing.md",
     "Code/Quick Sort.md",
+    "Code/Sets.md",
+    "Daily Notes/31-07-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Uncategorized/Markdown Cheatsheet.md",
+    "Daily Notes/08-08-2023.md",
+    "Uncategorized/Untitled.md",
+    "Math/Logarithms.md",
     "Code/Code Optimization.md",
     "Code/CSS.md",
     "Code/GIT.md",
@@ -162,19 +175,6 @@
     "Code/Mutability.md",
     "Code/Namespaces.md",
     "Code/Naming in Code.md",
-    "Code/Polymorphism.md",
-    "Code/Python Exceptions.md",
-    "Code/Python Iterables.md",
-    "Code/Python Scope.md",
-    "Code/Python Testing.md",
-    "Code/Sets.md",
-    "Code/Python.md",
-    "Code/Threads.md",
-    "Code/Pep8.md",
-    "Math/Logarithms.md",
-    "Math/Group Theory.md",
-    "Daily Notes/09-08-2023.md",
-    "Daily Notes/31-07-2023.md",
     "Math",
     "Untitled.canvas",
     "Code",
