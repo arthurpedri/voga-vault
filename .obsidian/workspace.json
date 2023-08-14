@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Pointers.md",
+                "file": "Daily Notes/10-08-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Pointers.md",
+                "file": "Daily Notes/10-08-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Pointers.md",
+                "file": "Daily Notes/10-08-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Pointers.md"
+                "file": "Daily Notes/10-08-2023.md"
               }
             }
           }
@@ -149,10 +149,12 @@
   },
   "active": "aab00c423e962b60",
   "lastOpenFiles": [
-    "Code/Reference.md",
-    "Code/Pointers.md",
-    "Code/Hexadecimal.md",
+    "Daily Notes/12-08-2023.md",
     "Daily Notes/10-08-2023.md",
+    "Daily Notes/11-08-2023.md",
+    "Code/Pointers.md",
+    "Code/Reference.md",
+    "Code/Hexadecimal.md",
     "Code/Threads.md",
     "Code/Python Testing.md",
     "Code/Quick Sort.md",
@@ -173,8 +175,6 @@
     "Code/JS DOM.md",
     "Code/Memoization.md",
     "Code/Mutability.md",
-    "Code/Namespaces.md",
-    "Code/Naming in Code.md",
     "Math",
     "Untitled.canvas",
     "Code",
