@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/10-08-2023.md",
+                "file": "Games/Rog Crafting League Start.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/10-08-2023.md",
+                "file": "Games/Rog Crafting League Start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/10-08-2023.md",
+                "file": "Games/Rog Crafting League Start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/10-08-2023.md"
+                "file": "Games/Rog Crafting League Start.md"
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "aab00c423e962b60",
   "lastOpenFiles": [
-    "Daily Notes/12-08-2023.md",
+    "Daily Notes/31-07-2023.md",
+    "Games/Rog Crafting League Start.md",
+    "Games",
     "Daily Notes/10-08-2023.md",
+    "Daily Notes/16-08-2023.md",
+    "Daily Notes/12-08-2023.md",
     "Daily Notes/11-08-2023.md",
     "Code/Pointers.md",
     "Code/Reference.md",
@@ -159,7 +163,6 @@
     "Code/Python Testing.md",
     "Code/Quick Sort.md",
     "Code/Sets.md",
-    "Daily Notes/31-07-2023.md",
     "Daily Notes/09-08-2023.md",
     "Uncategorized/Markdown Cheatsheet.md",
     "Daily Notes/08-08-2023.md",
@@ -173,8 +176,6 @@
     "Code/HTML.md",
     "Code/Javascript.md",
     "Code/JS DOM.md",
-    "Code/Memoization.md",
-    "Code/Mutability.md",
     "Math",
     "Untitled.canvas",
     "Code",
