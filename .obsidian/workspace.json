@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aab00c423e962b60",
+            "id": "0e5205eb6e2177c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/19-08-2023.md",
+                "file": "Code/Python Virtual Environments.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/19-08-2023.md",
+                "file": "Code/Python Virtual Environments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/19-08-2023.md",
+                "file": "Code/Python Virtual Environments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/19-08-2023.md"
+                "file": "Code/Python Virtual Environments.md"
               }
             }
           }
@@ -147,10 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aab00c423e962b60",
+  "active": "0e5205eb6e2177c6",
   "lastOpenFiles": [
-    "Games/Rog Crafting League Start.md",
+    "Code/Hash Tables.md",
+    "Code/Python Virtual Environments.md",
     "Daily Notes/19-08-2023.md",
+    "Code/Git.md",
+    "Code/Python Generators.md",
+    "Code/Javascript.md",
+    "Code/Python.md",
+    "Code/Python Functions.md",
+    "Games/Rog Crafting League Start.md",
     "Daily Notes/31-07-2023.md",
     "Games",
     "Daily Notes/10-08-2023.md",
@@ -169,13 +176,6 @@
     "Daily Notes/08-08-2023.md",
     "Uncategorized/Untitled.md",
     "Math/Logarithms.md",
-    "Code/Code Optimization.md",
-    "Code/CSS.md",
-    "Code/GIT.md",
-    "Code/Git README.md",
-    "Code/Hash Tables.md",
-    "Code/HTML.md",
-    "Code/Javascript.md",
     "Math",
     "Untitled.canvas",
     "Code",
