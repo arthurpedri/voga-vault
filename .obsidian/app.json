@@ -4,5 +4,6 @@
   "newFileLocation": "current",
   "newFileFolderPath": "Uncategorized",
   "useTab": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "vimMode": true
 }

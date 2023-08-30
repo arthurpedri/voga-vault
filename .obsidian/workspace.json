@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0a874fb17366ce35",
+        "id": "f1dbf2a8f0680d8c",
         "type": "tabs",
         "children": [
           {
-            "id": "0e5205eb6e2177c6",
+            "id": "cb5aa683dba46aa8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Python Virtual Environments.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Python Virtual Environments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Python Virtual Environments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Code/Python Virtual Environments.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +139,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e5205eb6e2177c6",
+  "active": "cb5aa683dba46aa8",
   "lastOpenFiles": [
-    "Code/Hash Tables.md",
+    "Code/Issue Tracker project.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Code/Code Optimization.md",
+    "Code/ChatGPT.md",
     "Code/Python Virtual Environments.md",
+    "Daily Notes/23-08-2023.md",
+    "Code/Hash Tables.md",
     "Daily Notes/19-08-2023.md",
     "Code/Git.md",
     "Code/Python Generators.md",
@@ -171,11 +168,6 @@
     "Code/Python Testing.md",
     "Code/Quick Sort.md",
     "Code/Sets.md",
-    "Daily Notes/09-08-2023.md",
-    "Uncategorized/Markdown Cheatsheet.md",
-    "Daily Notes/08-08-2023.md",
-    "Uncategorized/Untitled.md",
-    "Math/Logarithms.md",
     "Math",
     "Untitled.canvas",
     "Code",
