@@ -1,0 +1,2 @@
+- In some programming languages, refers to the ability to create multiple functions with the same name but different implementations, mostly through different parameters.
+- A common error is the ambiguous call error, where the compiler would not know which function to use because of some oversight in the specification of the functions. For example a default value that makes the function call ambiguous.

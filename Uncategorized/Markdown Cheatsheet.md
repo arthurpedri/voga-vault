@@ -133,7 +133,9 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 | Paragraph | Text |
 
-  
+
+### Inline Code Block
+`example_code()`
 
 ### Fenced Code Block
 

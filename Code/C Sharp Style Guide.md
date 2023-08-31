@@ -1,0 +1,5 @@
+- Use PascalCase and camelCase
+- \_camelCase for internal and private fields
+- Allman style braces (new line for braces)
+- Do not use underscores, hyphens, or other nonalphanumeric characters
+- Visibility should be the first property

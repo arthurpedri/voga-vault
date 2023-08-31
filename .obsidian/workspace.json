@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f1dbf2a8f0680d8c",
+        "id": "2f5864fd00195d62",
         "type": "tabs",
         "children": [
           {
-            "id": "cb5aa683dba46aa8",
+            "id": "79f6d6b90b26475d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Code/C Sharp.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/C Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/C Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Code/C Sharp.md"
+              }
             }
           }
         ]
@@ -139,35 +147,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb5aa683dba46aa8",
+  "active": "79f6d6b90b26475d",
   "lastOpenFiles": [
-    "Code/Issue Tracker project.md",
-    "Code/Creating an interesting project for interviews.md",
-    "Code/Code Optimization.md",
-    "Code/ChatGPT.md",
-    "Code/Python Virtual Environments.md",
-    "Daily Notes/23-08-2023.md",
-    "Code/Hash Tables.md",
+    "Code/Method (or Function) Overloading.md",
+    "Code/C Sharp.md",
+    "Code/C Sharp Style Guide.md",
+    "Code/Python Resource Manager.md",
+    "Daily Notes/31-07-2023.md",
+    "Daily Notes/08-08-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Daily Notes/10-08-2023.md",
     "Daily Notes/19-08-2023.md",
-    "Code/Git.md",
+    "Code/Python Virtual Environments.md",
+    "Uncategorized/Markdown Cheatsheet.md",
+    "Code/Resource Managers.md",
     "Code/Python Generators.md",
+    "Uncategorized/TODO List.md",
+    "Uncategorized/Obsidian Notes.md",
+    "Code/Python Exceptions.md",
+    "Code/Issue Tracker project.md",
     "Code/Javascript.md",
+    "Code/JS DOM.md",
+    "Code/Memoization.md",
+    "Code/Mutability.md",
     "Code/Python.md",
     "Code/Python Functions.md",
-    "Games/Rog Crafting League Start.md",
-    "Daily Notes/31-07-2023.md",
-    "Games",
-    "Daily Notes/10-08-2023.md",
-    "Daily Notes/16-08-2023.md",
-    "Daily Notes/12-08-2023.md",
-    "Daily Notes/11-08-2023.md",
-    "Code/Pointers.md",
-    "Code/Reference.md",
-    "Code/Hexadecimal.md",
-    "Code/Threads.md",
-    "Code/Python Testing.md",
-    "Code/Quick Sort.md",
     "Code/Sets.md",
+    "Code/Quick Sort.md",
+    "Code/Reference.md",
+    "Games",
     "Math",
     "Untitled.canvas",
     "Code",

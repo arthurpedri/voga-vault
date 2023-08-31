@@ -1,0 +1,1 @@
+- Yield is similar to return, but will keep the state of the function until it is called again, and will continue from where it left.
