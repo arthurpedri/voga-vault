@@ -1,0 +1,4 @@
+- Interfaces are a set of properties, methods and other members.
+- They are declared with a [[Function signatures|signature]] but their behaviors are not defined.
+ - A class implements an interface if it defines those things.
+ - 
