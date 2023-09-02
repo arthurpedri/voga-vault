@@ -23,7 +23,7 @@ Convert.ToString(myInt);
 ```csharp
 double d = 0.42e2; // 42
 float f = 3_000.5F; // 3000.5
-decimal b = 134.45E-2m; // 1.3445
+decimal m = 134.45E-2m; // 1.3445
 ```
 ### Double
 - Double is the standard for literals without suffixes.
