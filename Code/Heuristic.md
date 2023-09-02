@@ -1,0 +1,2 @@
+- A heuristic technique is any approach to problem solving or self-discovery that is not guaranteed to be optimal, perfect, or rational, but is sufficient to reach a short-term goal or approximation.
+- The most fundamental heuristic is trial and error, which can be used on anything.
