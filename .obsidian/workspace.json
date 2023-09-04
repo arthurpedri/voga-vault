@@ -11,8 +11,12 @@
             "id": "11e641b05c7e5d1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Code/Vim Motions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/Vim Motions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/Vim Motions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Code/Vim Motions.md"
+              }
             }
           }
         ]
@@ -141,8 +149,12 @@
   },
   "active": "11e641b05c7e5d1b",
   "lastOpenFiles": [
-    "Code/Heuristic.md",
+    "Code/C Sharp Style Guide.md",
+    "Code/Python.md",
+    "Code/Vim Motions.md",
     "Code/C Sharp.md",
+    "Code/C Sharp Reference Types.md",
+    "Code/Heuristic.md",
     "Code/SOLID.md",
     "Learning/Conceptual Notes.md",
     "Daily Notes/31-07-2023.md",
@@ -155,7 +167,6 @@
     "Code/Reference.md",
     "Code/Python Functions.md",
     "Code/Creating an interesting project for interviews.md",
-    "Code/Python.md",
     "Code/Method (or Function) Overloading.md",
     "Code/Mutability.md",
     "Code/Memoization.md",
@@ -164,9 +175,6 @@
     "Code/Polymorphism.md",
     "Daily Notes/08-08-2023.md",
     "Daily Notes/09-08-2023.md",
-    "Math/Logarithms.md",
-    "Untitled.md",
-    "Math/Group Theory.md",
     "Games",
     "Math",
     "Untitled.canvas",
