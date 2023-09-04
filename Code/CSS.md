@@ -5,7 +5,6 @@ div .class -> selects element with class that has parent div
 a::after -> content after the a tag
 li+li::before -> content before the second li when 2 are found together
 
-
 display:
   block -> can be resized, occupies entire width
   inline-block -> can be resized doesn't occupy entire width

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Vim Motions.md",
+                "file": "Code/CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Vim Motions.md",
+                "file": "Code/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Vim Motions.md",
+                "file": "Code/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Vim Motions.md"
+                "file": "Code/CSS.md"
               }
             }
           }
@@ -149,32 +149,32 @@
   },
   "active": "11e641b05c7e5d1b",
   "lastOpenFiles": [
-    "Code/C Sharp Style Guide.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Code/Code Optimization.md",
+    "Code/C Sharp.md",
+    "Daily Notes/08-08-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Daily Notes/10-08-2023.md",
+    "Daily Notes/19-08-2023.md",
+    "Daily Notes/31-07-2023.md",
     "Code/Python.md",
     "Code/Vim Motions.md",
-    "Code/C Sharp.md",
+    "Code/C Sharp Style Guide.md",
     "Code/C Sharp Reference Types.md",
     "Code/Heuristic.md",
     "Code/SOLID.md",
     "Learning/Conceptual Notes.md",
-    "Daily Notes/31-07-2023.md",
-    "Daily Notes/19-08-2023.md",
-    "Daily Notes/10-08-2023.md",
     "Code/Threads.md",
     "Code/Sets.md",
     "Code/Resource Managers.md",
     "Code/Quick Sort.md",
     "Code/Reference.md",
     "Code/Python Functions.md",
-    "Code/Creating an interesting project for interviews.md",
     "Code/Method (or Function) Overloading.md",
     "Code/Mutability.md",
     "Code/Memoization.md",
     "Code/Pointers.md",
     "Code/Pep8.md",
-    "Code/Polymorphism.md",
-    "Daily Notes/08-08-2023.md",
-    "Daily Notes/09-08-2023.md",
     "Games",
     "Math",
     "Untitled.canvas",
