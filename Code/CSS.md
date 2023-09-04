@@ -29,7 +29,6 @@ flex stuff:
   flex-flow:
     set container properties quicker. flex-flow: direction wrap
 
-
 grid stuff:
   by default only 1 column
   grid-template-columns: sets number of cols and size of each
