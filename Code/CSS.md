@@ -14,7 +14,6 @@ display:
   grid -> block grid of resizable rows and cols
   inline-grid -> same but inline
 
-
 flex stuff:
   justify-content -> sets horizontal layout of items inside the flex parent
   align-items -> sets vertical layout of items inside the flex parent
