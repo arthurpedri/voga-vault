@@ -233,3 +233,28 @@ abstract class Vehicle { }
 - An abstract member from the superclass must be overridden in the subclass.
 
 [[C Sharp Reference Types]]
+
+## Lists
+### Object Initialization
+```csharp
+List<string> citiesList2 = new List<string> { "Delhi", "Los Angeles" };
+```
+- Basic construction uses parentheses `( )` and no values.
+- Object initialization uses curly braces `{ }` and the actual values go in-between.
+```csharp
+using System.Collections.Generic;
+List<string> citiesList = new List<string>();
+citiesList.Add("Delhi");
+```
+- We can find the number of elements in the list using the `Count` property:
+- We can check if an element exists in a list using the `Contains()` method:
+```csharp
+bool success = citiesList.Remove("Delhi"); // success is true
+```
+- `citiesList.Clear();` will remove all elements from the list.
+- `AddRange()` — takes an array or list as an argument. Adds the values to the end of the list. Returns nothing.
+- `InsertRange()` — takes an `int` and array or list as an argument. Adds the values at the `int` index. Returns nothing.
+- `RemoveRange()` — takes two `int` values. The first `int` is the index at which to begin removing and the second `int` is the number of elements to remove. Returns nothing.
+- `GetRange()` — takes two `int` values. The first `int` is the index of the first desired element and the second `int` is the number of elements in the desired range. Returns a list of the same type.
+### Generic Collection
+- List class is a generic collection. They are data structures that are defined with a generic type. `List<T>`.
