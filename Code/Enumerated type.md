@@ -1,0 +1,2 @@
+- Is a data type consisting of a set of named values of the type.
+- The enumerator names are usually identifiers that behave as constants in the language.

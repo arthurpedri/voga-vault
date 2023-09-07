@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/C Sharp.md",
+                "file": "Code/Code Optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/C Sharp.md",
+                "file": "Code/Code Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/C Sharp.md",
+                "file": "Code/Code Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/C Sharp.md"
+                "file": "Code/Code Optimization.md"
               }
             }
           }
@@ -149,12 +149,21 @@
   },
   "active": "4e7294330c3a15c5",
   "lastOpenFiles": [
+    "Code/Git.md",
+    "Code/SOLID.md",
+    "Code/C Sharp.md",
+    "Code/Untitled.md",
+    "Code/Enumerated type.md",
+    "Code/C Sharp LINQ.md",
+    "Code/Javascript.md",
+    "Code/JS DOM.md",
+    "Code/Memoization.md",
+    "Code/Method (or Function) Overloading.md",
     "Code/CSS.md",
     "Code/Bash.md",
     "Code/Encapsulation.md",
     "Code/Creating an interesting project for interviews.md",
     "Code/Code Optimization.md",
-    "Code/C Sharp.md",
     "Daily Notes/08-08-2023.md",
     "Daily Notes/09-08-2023.md",
     "Daily Notes/10-08-2023.md",
@@ -165,16 +174,7 @@
     "Code/C Sharp Style Guide.md",
     "Code/C Sharp Reference Types.md",
     "Code/Heuristic.md",
-    "Code/SOLID.md",
     "Learning/Conceptual Notes.md",
-    "Code/Threads.md",
-    "Code/Sets.md",
-    "Code/Resource Managers.md",
-    "Code/Quick Sort.md",
-    "Code/Reference.md",
-    "Code/Python Functions.md",
-    "Code/Method (or Function) Overloading.md",
-    "Code/Mutability.md",
     "Games",
     "Math",
     "Untitled.canvas",

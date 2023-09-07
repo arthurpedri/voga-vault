@@ -45,6 +45,9 @@ decimal m = 134.45E-2m; // 1.3445
 - `Math.Max()`
 - `Math.Ceiling()`
 
+## Var
+- `var` are implicitly typed variables.
+
 ## Strings
 ### String Interpolation
 ```csharp
@@ -54,11 +57,57 @@ string interpolation = $"Your favorite musician is {var1} and mine is {var2}.";
 - `.Length` property on a string.
 - `.IndexOf()`
 - `.Substring()` 
-## Ternary Operator
+## Operators
+### Ternary Operator
 ```csharp
 bool result = 1 == 2 ? true : false;
 ```
-
+### Spread element
+`..` can be used to inline collection values in a collection expression.
+```csharp
+string[] vowels = [ "a", "e", "i", "o", "u" ]; 
+string[] consonants = [ "b", "c", "z" ]; 
+string[] alphabet = [ ..vowels, ..consonants, "y" ];
+```
+## Yield statement
+- `yield` statement is used in an iterator to provide the next value or signal the end of an iteration.
+- `yield return` will provide the next value in the iteration.
+- `yield break` to explicitly signal the end of the iteration. An iteration will also finish when control reaches the end of the iterator.
+## Using statement
+- The `using` statement ensures the correct use of an `IDisposable` instance.
+- When the control leaves the block of the using statement, an acquired `IDisposable` instance is disposed, even if and exception occurs within the block of the `using` statement.
+```csharp
+var numbers = new List<int>();
+using (StreamReader reader = File.OpenText("numbers.txt"))
+{
+    string line;
+    while ((line = reader.ReadLine()) is not null)
+    {
+        if (int.TryParse(line, out int number))
+        {
+            numbers.Add(number);
+        }
+    }
+}
+```
+- We can also use a `using` *declaration*, which doesn't require braces. The local variable is disposed at the end of the scope in which it's declared.
+```csharp
+static IEnumerable<int> LoadNumbers(string filePath)
+{
+    using StreamReader reader = File.OpenText(filePath);
+    
+    var numbers = new List<int>();
+    string line;
+    while ((line = reader.ReadLine()) is not null)
+    {
+        if (int.TryParse(line, out int number))
+        {
+            numbers.Add(number);
+        }
+    }
+    return numbers;
+}
+```
 ## Named Arguments
 Named arguments can only be called after positional arguments.
 ```csharp
@@ -258,3 +307,33 @@ bool success = citiesList.Remove("Delhi"); // success is true
 - `GetRange()` — takes two `int` values. The first `int` is the index of the first desired element and the second `int` is the number of elements in the desired range. Returns a list of the same type.
 ### Generic Collection
 - List class is a generic collection. They are data structures that are defined with a generic type. `List<T>`.
+
+## [[C Sharp LINQ|LINQ]]
+
+## Dictionary
+```csharp
+using System.Collections.Generic;
+public class Dictionary<TKey,TValue>
+```
+### KeyValuePair
+- When you use foreach to enumerate dictionary elements, the elements are retrieved as KeyValuePair objects. 
+```csharp
+foreach( KeyValuePair<string, string> kvp in openWith ) { 
+    Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value); 
+}
+```
+## Set
+```csharp
+using System.Collections.Generic;
+public class HashSet<T>
+```
+## [[Enumerated type|Enum]]
+```csharp
+enum Level 
+{
+  Low,
+  Medium,
+  High
+}
+Level myVar = Level.Medium;
+```
