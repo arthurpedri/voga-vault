@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Code Optimization.md",
+                "file": "Code/C Sharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Code Optimization.md",
+                "file": "Code/C Sharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Code Optimization.md",
+                "file": "Code/C Sharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Code Optimization.md"
+                "file": "Code/C Sharp.md"
               }
             }
           }
@@ -149,30 +149,30 @@
   },
   "active": "4e7294330c3a15c5",
   "lastOpenFiles": [
+    "Code/C Sharp LINQ.md",
+    "Code/C Sharp.md",
+    "Code/Vim Motions.md",
+    "Code/C Sharp Reference Types.md",
+    "Code/Bash.md",
+    "Code/C Sharp Style Guide.md",
+    "Code/Code Optimization.md",
     "Code/Git.md",
     "Code/SOLID.md",
-    "Code/C Sharp.md",
     "Code/Untitled.md",
     "Code/Enumerated type.md",
-    "Code/C Sharp LINQ.md",
     "Code/Javascript.md",
     "Code/JS DOM.md",
     "Code/Memoization.md",
     "Code/Method (or Function) Overloading.md",
     "Code/CSS.md",
-    "Code/Bash.md",
     "Code/Encapsulation.md",
     "Code/Creating an interesting project for interviews.md",
-    "Code/Code Optimization.md",
     "Daily Notes/08-08-2023.md",
     "Daily Notes/09-08-2023.md",
     "Daily Notes/10-08-2023.md",
     "Daily Notes/19-08-2023.md",
     "Daily Notes/31-07-2023.md",
     "Code/Python.md",
-    "Code/Vim Motions.md",
-    "Code/C Sharp Style Guide.md",
-    "Code/C Sharp Reference Types.md",
     "Code/Heuristic.md",
     "Learning/Conceptual Notes.md",
     "Games",

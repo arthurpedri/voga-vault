@@ -46,3 +46,17 @@ var methodResult = heroes
     .Select(x => $"{x} contains an 'a'");
 ```
 - Usually for single operator queries we will use the method syntax and for everything else the query syntax.
+
+## Map, Reduce and Filter
+- Map is `Select`:
+```csharp
+Enumerable.Range(1, 10).Select(x => x + 2);
+```
+- Reduce is `Aggregate`:
+```csharp
+Enumerable.Range(1, 10).Aggregate(0, (acc, x) => acc + x);
+```
+- Filter is `Where`:
+```csharp
+Enumerable.Range(1, 10).Where(x => x % 2 == 0);
+    ```
