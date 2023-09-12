@@ -31,13 +31,9 @@ func2(key='value', key2=7) # how to pass the arguments with keys
 add_two = lambda x: x + 2
 if_function = lambda num: 'big' if num > 100 else 'small'
 ```
-
 - Functions are first class objects.
-
 - First class objects can be stored as variables, passed as arguments, returned, stored in data structures.
-
 - Higher order functions either take a function as argument or return a function.
-
 - map(), filter(), reduce() are built-in higher order functions.
 
 ```python

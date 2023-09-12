@@ -99,23 +99,18 @@ class Circle:
 ```
 
 ## Abstraction
-
 - Abstract classes cannot be instantiated and abstract methods have to be defined on a child class.
-
 ```python
-from abc import ABC
+from abc import ABC # Abstract Base Class
 
 class MyAbstractClass(ABC):
     pass
 ```
-
 - An abstract method will need to be defined in any of the classes inheriting it.
-
 - If an abstract method is not instantiated, the child class will also be considered abstract and cannot be instantiated.
-
+- In python, [[Interfaces|interfaces]] can be implemented using abstract classes. 
 
 ## Dunder (Double UNDERscore) Methods
-
 - Using the same operator is a form of polymorphism called operator overloading.
 - Defining a class' dunder methods is a way to perform operator overloading.
 - There are many dunder methods possible: *\_\_len\_\_ *for example.

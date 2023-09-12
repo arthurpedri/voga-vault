@@ -31,7 +31,10 @@
 - **`.`** – repeat last command
 ### Cutting, Copying And Pasting
 - **`yy`** – copy (yank) entire line
+- `yw` - yank word
 - **`#yy`** – copy the specified number of lines
+- `Ctrl + Insert` - copy in insert mode
+- `Shift + Insert` - paste in insert mode
 - **`dd`** – cut (delete) entire line
 - **`#dd`** – cut the specified number of lines
 - **`p`** – paste after the cursor

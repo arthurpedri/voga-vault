@@ -1,33 +1,25 @@
-Template literals: `` -> can be used for multi-line strings and string interpolation
+## Template literals
+- Can be used for multi-line strings and string interpolation.
 
-String interpolation: `Some string ${}`
+### String interpolation
+`Some string ${}`
 
-  
+## Truthy and Falsy
+- Falsy: 0, empty strings, null, undefined, NaN
 
-undefined -> not assigned
+## Short-circuit evaluation
+```js
+let value = truthy_expression || expression_that_will_never_run
+```
+-  Value is equal to the return of `truthy_expression`.
 
-  
+## Ternary operator
+```js
+condition ? if_true_expression : if_false_expression
+```
 
-truthy and falsy
-
-  falsy: 0, empty strings, null, undefined, NaN
-
-  
-
-short-circuit evaluation:
-
-  let value = truthy_expression || expression_that_will_never_run
-
-  value is equal to the return of truthy_expression
-
-  
-
-ternary operator:
-
-  condition ? if_true_expression : if_false_expression
-
-  
-
+## Switch
+```js
 switch (condition) {
 
   case 'something':
@@ -39,54 +31,39 @@ switch (condition) {
     break;
 
 }
+```
 
   
+## Functions
+### Default parameters
+```js
+function x(var = 'default value')
+```
 
-default parameters: (var = 'default value')
+###  Function expression
+```js
+const foo = function(arg) { expression; };
+foo(arg);
+```
 
-  
+### Arrow functions
+```js
+const foo = (arg) => { expression; };
+arg => arg.length // implicit return
+() => {};
+```
+- Does not establish scope but const and let are limited to expressions they are declared in.
 
-function expression:
-
-  const foo = function(arg) { expression; };
-
-  foo(arg);
-
-  
-
-arrow functions:
-
-  const foo = (arg) => { expression; };
-
-  arg => arg.length // implicit return
-
-  () => {};
-
-  do not establish scope but const and let are limited to expressions they are declared in
-
-  
-
-Array literal: []
-
-  const can be used to change elements in the array but not to reassign the array
-
-  array is a class and can be instanced with new Array()
-
-  
-
-for of:
-
-  for (const item of array) {  // also works with strings and [key, value]
-
-    item;
-
-  }
-
-  
-
-break; and continue; work normally
-
-  
+## Array literal: []
+- `const` can be used to change elements in the array but not to reassign the array
+- array is a class and can be instanced with new Array()
+### for of
+```js
+for (const item of array) {  // also works with strings and [key, value]
+    item;
+}
+```
+- break and continue work normally
 
 don't confuse maps with objects, even though setting object properties works for maps, it will use
 

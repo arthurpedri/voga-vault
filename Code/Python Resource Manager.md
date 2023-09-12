@@ -14,6 +14,7 @@ finally:
    file.close()
 ```
 The equivalent code needs to make sure to close the resource it opened, but using the resource manager we don't have to worry about forgetting to close opened resources.
+
 ## Class based context managers
 A context manager class needs two methods explicitly defined:
 1. `__enter__()` allows for the setup of context managers. Commonly takes care of opening resources and beginning the runtime context.
@@ -32,6 +33,7 @@ class WorkWithFile:
     # Code to handle exceptions would go here
     self.opened_file.close()
 ```
+
 ## Contextlib
 ```python
 from contextlib import contextmanager  
@@ -39,10 +41,10 @@ from contextlib import contextmanager
 @contextmanager  
 def open_file_contextlib(file, mode):  
     opened_file = open(file, mode)  
-try:  
-    yield opened_file  
-finally:  
-    opened_file.close()
+    try:  
+        yield opened_file  
+    finally:  
+        opened_file.close()
 
 with open_file_contextlib('file.txt', 'w') as opened_file:  
     opened_file.write('We just made a context manager using contexlib')
