@@ -193,7 +193,7 @@ modules
 
   exporting and importing code
 
-  in node, we use module.exports and require() instead of the import/export syntax
+  in node, we use module.exports and require() instead of the import/export syntax for older code
 
   export { resourceToExport, otherResource }
 
