@@ -65,21 +65,16 @@ for (const item of array) {  // also works with strings and [key, value]
 ```
 - break and continue work normally
 
-don't confuse maps with objects, even though setting object properties works for maps, it will use
-
-the feature of the generic object, and won't be able to use map methods
-
-  
-
-destructuring
-
-  { key } = object gets the element with key from object
-
-  [h, ...t] = array deconstructing
+## Maps vs Objects
+- Don't confuse maps with objects, even though setting object properties works for maps, it will use the feature of the generic object, and won't be able to use map methods and have map qualities.
 
   
 
-Object literal: {}
+## Destructuring
+- `{ key }` : object gets the element with key from object
+- `[h, ...t]` : array deconstructing
+
+## Object literal: {}
 
   delete object.key // deletes the key value pair of key
 
