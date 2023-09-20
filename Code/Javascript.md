@@ -2,7 +2,9 @@
 - Can be used for multi-line strings and string interpolation.
 
 ### String interpolation
+```js
 `Some string ${}`
+```
 
 ## Truthy and Falsy
 - Falsy: 0, empty strings, null, undefined, NaN
@@ -32,28 +34,8 @@ switch (condition) {
 
 }
 ```
-
   
-## Functions
-### Default parameters
-```js
-function x(var = 'default value')
-```
-
-###  Function expression
-```js
-const foo = function(arg) { expression; };
-foo(arg);
-```
-
-### Arrow functions
-```js
-const foo = (arg) => { expression; };
-arg => arg.length // implicit return
-() => {};
-```
-- Does not establish scope but const and let are limited to expressions they are declared in.
-
+[[JS Functions]]
 ## Array literal: []
 - `const` can be used to change elements in the array but not to reassign the array
 - array is a class and can be instanced with new Array()
@@ -130,37 +112,7 @@ for (const item of array) {  // also works with strings and [key, value]
 
   
 
-  factory functions work by returning an object created using the parameters
 
-    property value shorthand (destructuring):
-
-      const foo = (name, age) => {
-
-        return {
-
-          name,
-
-          age
-
-        }
-
-      };
-
-  destructured assignment:
-
-    const { key } = object
-
-    key is now the value of that key in the object
-
-  
-
-functions are first class objects
-
-  they can have properties and methods
-
-  higher-order functions are those that accept functions as parameters or returns a function
-
-  functions that are passed as parameters are callback functions
 
   
 
@@ -184,46 +136,4 @@ static methods can be called from class, but not from instances
 
   
 
-modules
-
-  exporting and importing code
-
-  in node, we use module.exports and require() instead of the import/export syntax for older code
-
-  export { resourceToExport, otherResource }
-
-  import {resource} from './place'
-
-  you can only use import and export inside modules, not regular scripts
-
-  modules use strict mode automatically
-
-  default export don't need braces
-
-    export default function -> {function as default}
-
-    import whateverName from 'module' -> same as import {default as whateverName} from 'module'
-
-    values inside the default can't be extract directly with an import, they must be taken after the default is imported
-
-  export foo as bar
-
-  import foo as bar
-
-  better to rename in imports and leave modules as they are
-
-  import to object, creating own namespace
-
-    import * as Module from 'module'
-
-    Module.function();
-
-  classes can be imported and exported as well
-
-  modules can be aggregated
-
-    export {x} from 'modules/x'
-
-    export {y} from 'modules/y'
-
-    import {x, y} from 'modules/aggregator'
+[[JS Modules]]
