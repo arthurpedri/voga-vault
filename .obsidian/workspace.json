@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dd6568848261e718",
+        "id": "252e39fcc0239e9e",
         "type": "tabs",
         "children": [
           {
-            "id": "9d59b78414574711",
+            "id": "51af51c214cfcadc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/VS Code Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ea5fe73549094ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Javascript.md",
+                "file": "Code/Liar Game app.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Javascript.md",
+                "file": "Code/Liar Game app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Javascript.md",
+                "file": "Code/Liar Game app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Javascript.md"
+                "file": "Code/Liar Game app.md"
               }
             }
           },
@@ -170,35 +157,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ea5fe73549094ad",
+  "active": "51af51c214cfcadc",
   "lastOpenFiles": [
-    "Code/JS Enums.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Code/React and Django App.md",
+    "Code/Terminal tools to learn.md",
+    "Code/Primeagen Learning New Programming Languages.md",
+    "Code/Git.md",
+    "Code/Javascript.md",
+    "Code/CSS.md",
+    "Code/Liar Game app.md",
+    "Code/C Sharp Reference Types.md",
     "Code/JS MDN Style Guide.md",
     "Code/VS Code Tips.md",
-    "Code/Javascript.md",
+    "Code/JS Enums.md",
     "Code/JS Modules.md",
     "Code/JS Strict Mode.md",
     "Code/JS Functions.md",
     "Code/JS DOM.md",
     "Code/Interfaces.md",
     "Code/Git README.md",
-    "Code/Terminal tools to learn.md",
     "Code/JS Semicolons.md",
     "Code/C Sharp LINQ.md",
     "Code/Code Optimization.md",
-    "Code/Git.md",
-    "Code/React and Django App.md",
     "Code/Quick Sort.md",
     "Code/Topological Sort.md",
     "Code/Polymorphism.md",
     "Code/Method (or Function) Overloading.md",
     "Code/Mutability.md",
-    "Code/Memoization.md",
-    "Code/Hexadecimal.md",
-    "Code/Heuristic.md",
     "Cooking",
-    "Cooking/Air Fryer.md",
-    "Uncategorized/Obsidian Notes.md",
     "Games",
     "Math",
     "Untitled.canvas",
