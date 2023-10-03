@@ -22,3 +22,8 @@
 ### Liar Choice (Optional)
 - Choose who is the liar
 - Make some way to prevent the liar from appearing right away (maybe double click)
+
+## TODO
+- Inplace save category
+- Inplace save playercount
+- difficulty
