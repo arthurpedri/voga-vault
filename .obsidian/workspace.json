@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1abae8d5fd2a3f7d",
+        "id": "b441ba8c15c1b921",
         "type": "tabs",
         "children": [
           {
-            "id": "bc6bb4831203f1bc",
+            "id": "533065016a9688ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Rice.md",
+                "file": "Electronics/Soldering.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cooking/Rice.md",
+                "file": "Electronics/Soldering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cooking/Rice.md",
+                "file": "Electronics/Soldering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cooking/Rice.md"
+                "file": "Electronics/Soldering.md"
               }
             }
           },
@@ -157,12 +157,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc6bb4831203f1bc",
+  "active": "533065016a9688ba",
   "lastOpenFiles": [
+    "Math/Logarithms.md",
+    "Electronics/Soldering.md",
+    "Electronics",
+    "Quick Links and Lists",
+    "Math/Group Theory.md",
+    "Uncategorized/TODO List.md",
+    "Learning/Permanent Notes.md",
+    "Learning/Fleeting Notes.md",
+    "Daily Notes/08-08-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Daily Notes/31-07-2023.md",
+    "Daily Notes/19-08-2023.md",
+    "Daily Notes/15-09-2023.md",
     "Cooking/Rice.md",
     "Code/Keyboard Layout Setup.md",
     "Code/Vim Motions.md",
-    "Uncategorized/Electric pianos.md",
+    "Quick Links and Lists/Electric pianos.md",
     "Code/Regex.md",
     "Code/Liar Game app.md",
     "Code/Creating an interesting project for interviews.md",
@@ -174,17 +187,6 @@
     "Code/CSS.md",
     "Code/C Sharp Reference Types.md",
     "Code/JS MDN Style Guide.md",
-    "Code/VS Code Tips.md",
-    "Code/JS Enums.md",
-    "Code/JS Modules.md",
-    "Code/JS Strict Mode.md",
-    "Code/JS Functions.md",
-    "Code/JS DOM.md",
-    "Code/Interfaces.md",
-    "Code/Git README.md",
-    "Code/JS Semicolons.md",
-    "Code/C Sharp LINQ.md",
-    "Code/Code Optimization.md",
     "Cooking",
     "Games",
     "Math",
