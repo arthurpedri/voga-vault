@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b441ba8c15c1b921",
+        "id": "f22246345762a59a",
         "type": "tabs",
         "children": [
           {
-            "id": "533065016a9688ba",
+            "id": "5be53e29a9c24012",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electronics/Soldering.md",
+                "file": "Quick Notes/Split Keyboard Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electronics/Soldering.md",
+                "file": "Quick Notes/Split Keyboard Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electronics/Soldering.md",
+                "file": "Quick Notes/Split Keyboard Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electronics/Soldering.md"
+                "file": "Quick Notes/Split Keyboard Resources.md"
               }
             }
           },
@@ -157,12 +157,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "533065016a9688ba",
+  "active": "5be53e29a9c24012",
   "lastOpenFiles": [
-    "Math/Logarithms.md",
+    "Quick Notes/Standing desks.md",
+    "Quick Notes/Split Keyboard Resources.md",
     "Electronics/Soldering.md",
+    "Quick Notes/Raspberry Pi Hole.md",
+    "Math/Logarithms.md",
     "Electronics",
-    "Quick Links and Lists",
+    "Quick Notes",
     "Math/Group Theory.md",
     "Uncategorized/TODO List.md",
     "Learning/Permanent Notes.md",
@@ -175,7 +178,7 @@
     "Cooking/Rice.md",
     "Code/Keyboard Layout Setup.md",
     "Code/Vim Motions.md",
-    "Quick Links and Lists/Electric pianos.md",
+    "Quick Notes/Electric pianos.md",
     "Code/Regex.md",
     "Code/Liar Game app.md",
     "Code/Creating an interesting project for interviews.md",
@@ -184,9 +187,6 @@
     "Code/Primeagen Learning New Programming Languages.md",
     "Code/Git.md",
     "Code/Javascript.md",
-    "Code/CSS.md",
-    "Code/C Sharp Reference Types.md",
-    "Code/JS MDN Style Guide.md",
     "Cooking",
     "Games",
     "Math",

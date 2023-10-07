@@ -1,0 +1,2 @@
+-   Raspberry Pi for blocking ads and tracking on the local network.
+- https://pi-hole.net
