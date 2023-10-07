@@ -6,4 +6,4 @@
 - Dactyl Manuform https://github.com/abstracthat/dactyl-manuform/tree/master (maybe 5x6?)
     - Maybe adjusting the size after a first print
     - https://ryanis.cool/dactyl/#manuform
-- 
+- Corne https://github.com/foostan/crkbd/tree/main
