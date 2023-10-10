@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "214364c2a51c1a7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick Notes/Ferramentas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "stacked": true
@@ -159,8 +171,9 @@
   },
   "active": "5be53e29a9c24012",
   "lastOpenFiles": [
-    "Quick Notes/Standing desks.md",
+    "Quick Notes/Ferramentas.md",
     "Quick Notes/Split Keyboard Resources.md",
+    "Quick Notes/Standing desks.md",
     "Electronics/Soldering.md",
     "Quick Notes/Raspberry Pi Hole.md",
     "Math/Logarithms.md",
@@ -186,7 +199,6 @@
     "Code/Terminal tools to learn.md",
     "Code/Primeagen Learning New Programming Languages.md",
     "Code/Git.md",
-    "Code/Javascript.md",
     "Cooking",
     "Games",
     "Math",

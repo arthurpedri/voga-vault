@@ -1,0 +1,5 @@
+- Ferro de solda com temperatura regulável
+- Silicone para soldar sem afetar o que está abaixo.
+- Fio com capa de silicone.
+- Desencapador
+- 
