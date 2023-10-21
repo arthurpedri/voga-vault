@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Notes/Split Keyboard Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "214364c2a51c1a7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Notes/Ferramentas.md",
+                "file": "Cooking/Knife care.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Notes/Split Keyboard Resources.md",
+                "file": "Cooking/Knife care.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Notes/Split Keyboard Resources.md",
+                "file": "Cooking/Knife care.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Notes/Split Keyboard Resources.md"
+                "file": "Cooking/Knife care.md"
               }
             }
           },
@@ -171,7 +159,11 @@
   },
   "active": "5be53e29a9c24012",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Cooking/Knife care.md",
+    "Quick Notes/Lista pra casa nova.md",
     "Quick Notes/Ferramentas.md",
+    "Cooking/Air Fryer.md",
     "Quick Notes/Split Keyboard Resources.md",
     "Quick Notes/Standing desks.md",
     "Electronics/Soldering.md",
@@ -195,14 +187,9 @@
     "Code/Regex.md",
     "Code/Liar Game app.md",
     "Code/Creating an interesting project for interviews.md",
-    "Code/React and Django App.md",
-    "Code/Terminal tools to learn.md",
-    "Code/Primeagen Learning New Programming Languages.md",
-    "Code/Git.md",
     "Cooking",
     "Games",
     "Math",
-    "Untitled.canvas",
     "Code",
     "Uncategorized",
     "Learning",
