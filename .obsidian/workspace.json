@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f22246345762a59a",
+        "id": "4b0ab1049efce456",
         "type": "tabs",
         "children": [
           {
-            "id": "5be53e29a9c24012",
+            "id": "147b97abf021f533",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cooking/Knife care.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cooking/Knife care.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cooking/Knife care.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cooking/Knife care.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,10 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5be53e29a9c24012",
+  "active": "147b97abf021f533",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Quick Notes/Social media face tracker.md",
+    "Cooking/Rice.md",
     "Cooking/Knife care.md",
+    "Untitled.canvas",
     "Quick Notes/Lista pra casa nova.md",
     "Quick Notes/Ferramentas.md",
     "Cooking/Air Fryer.md",
@@ -180,7 +174,6 @@
     "Daily Notes/31-07-2023.md",
     "Daily Notes/19-08-2023.md",
     "Daily Notes/15-09-2023.md",
-    "Cooking/Rice.md",
     "Code/Keyboard Layout Setup.md",
     "Code/Vim Motions.md",
     "Quick Notes/Electric pianos.md",
