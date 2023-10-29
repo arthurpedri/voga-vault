@@ -11,8 +11,12 @@
             "id": "147b97abf021f533",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Coding Practice Menu.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learning/Coding Practice Menu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learning/Coding Practice Menu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learning/Coding Practice Menu.md"
+              }
             }
           },
           {
@@ -151,6 +159,7 @@
   },
   "active": "147b97abf021f533",
   "lastOpenFiles": [
+    "Learning/Coding Practice Menu.md",
     "Quick Notes/Social media face tracker.md",
     "Cooking/Rice.md",
     "Cooking/Knife care.md",
@@ -179,7 +188,6 @@
     "Quick Notes/Electric pianos.md",
     "Code/Regex.md",
     "Code/Liar Game app.md",
-    "Code/Creating an interesting project for interviews.md",
     "Cooking",
     "Games",
     "Math",
