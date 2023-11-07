@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Coding Practice Menu.md",
+                "file": "Cooking/Boiling Chicken.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Coding Practice Menu.md",
+                "file": "Cooking/Boiling Chicken.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Coding Practice Menu.md",
+                "file": "Cooking/Boiling Chicken.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Coding Practice Menu.md"
+                "file": "Cooking/Boiling Chicken.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   "active": "147b97abf021f533",
   "lastOpenFiles": [
     "Learning/Coding Practice Menu.md",
+    "Cooking/Boiling Chicken.md",
     "Quick Notes/Social media face tracker.md",
     "Cooking/Rice.md",
     "Cooking/Knife care.md",
@@ -187,7 +188,6 @@
     "Code/Vim Motions.md",
     "Quick Notes/Electric pianos.md",
     "Code/Regex.md",
-    "Code/Liar Game app.md",
     "Cooking",
     "Games",
     "Math",
