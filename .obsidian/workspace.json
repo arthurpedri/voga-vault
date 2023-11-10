@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Boiling Chicken.md",
+                "file": "Cooking/Recipes/Bibimbap.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cooking/Boiling Chicken.md",
+                "file": "Cooking/Recipes/Bibimbap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cooking/Boiling Chicken.md",
+                "file": "Cooking/Recipes/Bibimbap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cooking/Boiling Chicken.md"
+                "file": "Cooking/Recipes/Bibimbap.md"
               }
             }
           },
@@ -159,13 +159,19 @@
   },
   "active": "147b97abf021f533",
   "lastOpenFiles": [
-    "Learning/Coding Practice Menu.md",
+    "Cooking/Recipes/Cheesy Cabbage Roll Katsu.md",
+    "Quick Notes/Lista pra casa nova.md",
+    "Cooking/Recipes/Bibimbap.md",
+    "Cooking/Recipes/Creamy Crab Croquette.md",
+    "Cooking/Recipes/Kong Guksu.md",
+    "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
     "Cooking/Boiling Chicken.md",
+    "Cooking/Recipes",
+    "Learning/Coding Practice Menu.md",
     "Quick Notes/Social media face tracker.md",
     "Cooking/Rice.md",
     "Cooking/Knife care.md",
     "Untitled.canvas",
-    "Quick Notes/Lista pra casa nova.md",
     "Quick Notes/Ferramentas.md",
     "Cooking/Air Fryer.md",
     "Quick Notes/Split Keyboard Resources.md",
@@ -183,11 +189,6 @@
     "Daily Notes/09-08-2023.md",
     "Daily Notes/31-07-2023.md",
     "Daily Notes/19-08-2023.md",
-    "Daily Notes/15-09-2023.md",
-    "Code/Keyboard Layout Setup.md",
-    "Code/Vim Motions.md",
-    "Quick Notes/Electric pianos.md",
-    "Code/Regex.md",
     "Cooking",
     "Games",
     "Math",
