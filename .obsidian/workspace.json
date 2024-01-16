@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b0ab1049efce456",
+        "id": "1a594917591a95e1",
         "type": "tabs",
         "children": [
           {
-            "id": "147b97abf021f533",
+            "id": "3a6078fbbc07788b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Recipes/Bibimbap.md",
+                "file": "Code/File Checksum.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cooking/Recipes/Bibimbap.md",
+                "file": "Code/File Checksum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cooking/Recipes/Bibimbap.md",
+                "file": "Code/File Checksum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cooking/Recipes/Bibimbap.md"
+                "file": "Code/File Checksum.md"
               }
             }
           },
@@ -136,7 +136,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -157,14 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "147b97abf021f533",
+  "active": "3a6078fbbc07788b",
   "lastOpenFiles": [
-    "Cooking/Recipes/Cheesy Cabbage Roll Katsu.md",
-    "Quick Notes/Lista pra casa nova.md",
-    "Cooking/Recipes/Bibimbap.md",
-    "Cooking/Recipes/Creamy Crab Croquette.md",
+    "Code/File Checksum.md",
     "Cooking/Recipes/Kong Guksu.md",
     "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
+    "Cooking/Recipes/Bibimbap.md",
+    "Cooking/Recipes/Creamy Crab Croquette.md",
+    "Cooking/Recipes/Cheesy Cabbage Roll Katsu.md",
+    "Quick Notes/Lista pra casa nova.md",
     "Cooking/Boiling Chicken.md",
     "Cooking/Recipes",
     "Learning/Coding Practice Menu.md",
@@ -188,7 +191,6 @@
     "Daily Notes/08-08-2023.md",
     "Daily Notes/09-08-2023.md",
     "Daily Notes/31-07-2023.md",
-    "Daily Notes/19-08-2023.md",
     "Cooking",
     "Games",
     "Math",
