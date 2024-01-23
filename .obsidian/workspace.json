@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a6078fbbc07788b",
+            "id": "e16edf095fcfd77f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/File Checksum.md",
+                "file": "Code/Rust Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/File Checksum.md",
+                "file": "Code/Rust Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/File Checksum.md",
+                "file": "Code/Rust Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/File Checksum.md"
+                "file": "Code/Rust Variables.md"
               }
             }
           },
@@ -159,8 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a6078fbbc07788b",
+  "active": "e16edf095fcfd77f",
   "lastOpenFiles": [
+    "Code/Rust.md",
+    "Code/Rust Variables.md",
+    "Code/Untitled.md",
+    "Code/Python Generators.md",
+    "Code/Python.md",
+    "Code/Quick Sort.md",
+    "Code/Javascript.md",
+    "Code/JS DOM.md",
     "Code/File Checksum.md",
     "Cooking/Recipes/Kong Guksu.md",
     "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
@@ -181,16 +189,8 @@
     "Quick Notes/Standing desks.md",
     "Electronics/Soldering.md",
     "Quick Notes/Raspberry Pi Hole.md",
-    "Math/Logarithms.md",
     "Electronics",
     "Quick Notes",
-    "Math/Group Theory.md",
-    "Uncategorized/TODO List.md",
-    "Learning/Permanent Notes.md",
-    "Learning/Fleeting Notes.md",
-    "Daily Notes/08-08-2023.md",
-    "Daily Notes/09-08-2023.md",
-    "Daily Notes/31-07-2023.md",
     "Cooking",
     "Games",
     "Math",
