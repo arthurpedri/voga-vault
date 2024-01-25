@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust Variables.md",
+                "file": "Cooking/Molho Tare.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust Variables.md",
+                "file": "Cooking/Molho Tare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust Variables.md",
+                "file": "Cooking/Molho Tare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust Variables.md"
+                "file": "Cooking/Molho Tare.md"
               }
             }
           },
@@ -161,8 +161,9 @@
   },
   "active": "e16edf095fcfd77f",
   "lastOpenFiles": [
-    "Code/Untitled.md",
     "Code/Rust Variables.md",
+    "Cooking/Molho Tare.md",
+    "Code/Untitled.md",
     "Code/Rust.md",
     "Code/Python Generators.md",
     "Code/Python.md",
@@ -188,7 +189,6 @@
     "Quick Notes/Split Keyboard Resources.md",
     "Quick Notes/Standing desks.md",
     "Electronics/Soldering.md",
-    "Quick Notes/Raspberry Pi Hole.md",
     "Electronics",
     "Quick Notes",
     "Cooking",
