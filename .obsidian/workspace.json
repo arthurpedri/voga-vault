@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Molho Tare.md",
+                "file": "Code/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cooking/Molho Tare.md",
+                "file": "Code/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cooking/Molho Tare.md",
+                "file": "Code/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cooking/Molho Tare.md"
+                "file": "Code/Rust.md"
               }
             }
           },
@@ -161,12 +161,24 @@
   },
   "active": "e16edf095fcfd77f",
   "lastOpenFiles": [
+    "Code/Function signatures.md",
+    "Code/C Sharp Reference Types.md",
+    "Code/Python.md",
+    "Code/Python Classes.md",
+    "Code/Pep8.md",
+    "Code/Encapsulation.md",
+    "Code/C Sharp.md",
+    "Code/Rust.md",
+    "Code/Terminal tools to learn.md",
+    "Code/Sets.md",
     "Code/Rust Variables.md",
+    "Code/React and Django App.md",
+    "Code/Python Functions.md",
+    "Code/C Sharp LINQ.md",
+    "Code/Bash.md",
     "Cooking/Molho Tare.md",
     "Code/Untitled.md",
-    "Code/Rust.md",
     "Code/Python Generators.md",
-    "Code/Python.md",
     "Code/Quick Sort.md",
     "Code/Javascript.md",
     "Code/JS DOM.md",
@@ -175,20 +187,8 @@
     "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
     "Cooking/Recipes/Bibimbap.md",
     "Cooking/Recipes/Creamy Crab Croquette.md",
-    "Cooking/Recipes/Cheesy Cabbage Roll Katsu.md",
-    "Quick Notes/Lista pra casa nova.md",
-    "Cooking/Boiling Chicken.md",
     "Cooking/Recipes",
-    "Learning/Coding Practice Menu.md",
-    "Quick Notes/Social media face tracker.md",
-    "Cooking/Rice.md",
-    "Cooking/Knife care.md",
     "Untitled.canvas",
-    "Quick Notes/Ferramentas.md",
-    "Cooking/Air Fryer.md",
-    "Quick Notes/Split Keyboard Resources.md",
-    "Quick Notes/Standing desks.md",
-    "Electronics/Soldering.md",
     "Electronics",
     "Quick Notes",
     "Cooking",
