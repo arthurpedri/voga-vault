@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Primitives.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Primitives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Primitives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust.md"
+                "file": "Code/Rust Primitives.md"
               }
             }
           },
@@ -161,6 +161,10 @@
   },
   "active": "e16edf095fcfd77f",
   "lastOpenFiles": [
+    "Code/Rust.md",
+    "Code/Rust Primitives.md",
+    "Code/Rust Variables.md",
+    "Code/Rust Printing and Formatting.md",
     "Code/Function signatures.md",
     "Code/C Sharp Reference Types.md",
     "Code/Python.md",
@@ -168,10 +172,8 @@
     "Code/Pep8.md",
     "Code/Encapsulation.md",
     "Code/C Sharp.md",
-    "Code/Rust.md",
     "Code/Terminal tools to learn.md",
     "Code/Sets.md",
-    "Code/Rust Variables.md",
     "Code/React and Django App.md",
     "Code/Python Functions.md",
     "Code/C Sharp LINQ.md",
@@ -185,8 +187,6 @@
     "Code/File Checksum.md",
     "Cooking/Recipes/Kong Guksu.md",
     "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
-    "Cooking/Recipes/Bibimbap.md",
-    "Cooking/Recipes/Creamy Crab Croquette.md",
     "Cooking/Recipes",
     "Untitled.canvas",
     "Electronics",
