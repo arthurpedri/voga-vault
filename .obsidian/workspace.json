@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust Primitives.md",
+                "file": "Code/Rust Custom Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust Primitives.md",
+                "file": "Code/Rust Custom Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust Primitives.md",
+                "file": "Code/Rust Custom Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust Primitives.md"
+                "file": "Code/Rust Custom Types.md"
               }
             }
           },
@@ -162,6 +162,7 @@
   "active": "e16edf095fcfd77f",
   "lastOpenFiles": [
     "Code/Rust.md",
+    "Code/Rust Custom Types.md",
     "Code/Rust Primitives.md",
     "Code/Rust Variables.md",
     "Code/Rust Printing and Formatting.md",
@@ -186,7 +187,6 @@
     "Code/JS DOM.md",
     "Code/File Checksum.md",
     "Cooking/Recipes/Kong Guksu.md",
-    "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
     "Cooking/Recipes",
     "Untitled.canvas",
     "Electronics",
