@@ -10,10 +10,6 @@
 ## Compound Types
 - Arrays like `[1, 2, 3]`
 - Tuples like `(1, true)`
-```rust
-let a_float: f64 = 1.0;  // Regular annotation
-let an_integer   = 5i32; // Suffix annotation
-```
 ### Tuples
 - Can be destructured
 - Values can be extracted from tuples using tuple indexing

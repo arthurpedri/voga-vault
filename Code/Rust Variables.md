@@ -1,5 +1,6 @@
 ## Variables
 Variables in Rust are immutable by default, and must be explicitly made mutable.
+They are scoped to a `block`
 ```rust
 let x: i32 = 10;
 let mut y: i32 = 10;
@@ -8,6 +9,7 @@ y += 1;
 - `let` is used to declare variables
 - `mut` is used to make a variable *[[Mutability|mutable]]*
 - Type can be declared after the variable name
+- Prefixing with an underscore will silence the unused variable warning
 ### Shadowing
 You can declare a new variable with the same name as a previous variable, here we can say **the first one is shadowed by the second one.**
 ```rust
