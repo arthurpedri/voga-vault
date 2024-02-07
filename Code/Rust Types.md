@@ -61,3 +61,8 @@ fn main() {
 ```
 - Type aliases ==don't== provide any extra type safety, because **==aliases are not new types==**.
 - The main use of aliases is to reduce boilerplate.
+
+## Conversion
+- Primitive types can be converted to each other through [[#Casting]].
+- Conversion between custom types is done (`struct, enum`) by using [[Rust Traits|traits]]. Generic conversions will use the `From` and `Into` traits.  
+- There are specific traits for converting the more common cases, in particular converting to and from `String`.
