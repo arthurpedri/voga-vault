@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust Types.md",
+                "file": "Code/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust Types.md",
+                "file": "Code/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust Types.md",
+                "file": "Code/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust Types.md"
+                "file": "Code/Rust.md"
               }
             }
           },
@@ -161,35 +161,36 @@
   },
   "active": "88fa5002c6904fb3",
   "lastOpenFiles": [
-    "Code/Rust Traits.md",
+    "Code/Rust Custom Types.md",
+    "Code/Rust.md",
     "Code/Rust Types.md",
+    "Code/Rust Turbofish.md",
+    "Code/Rust Printing and Formatting.md",
+    "Projects/Possible Projects.md",
+    "Uncategorized/TODO List.md",
+    "Projects",
+    "Quick Notes/Lista pra casa nova.md",
+    "Quick Notes/Electric pianos.md",
+    "Uncategorized/Obsidian Notes.md",
+    "Uncategorized/Markdown Cheatsheet.md",
+    "Quick Notes/Standing desks.md",
+    "Quick Notes/Split Keyboard Resources.md",
+    "Quick Notes/Social media face tracker.md",
+    "Quick Notes/Ferramentas.md",
+    "Learning/Coding Practice Menu.md",
+    "Code/Terminal tools to learn.md",
+    "Code/Resource Managers.md",
+    "Code/React and Django App.md",
+    "Pasted image 20240206194603.png",
+    "Pasted image 20240206194341.png",
+    "Pasted image 20240206194432.png",
+    "Quick Notes/Raspberry Pi Hole.md",
+    "Code/Rust Primitives.md",
     "Code/Rust Variables.md",
+    "Code/Rust Traits.md",
     "Code/Sets.md",
     "Code/Topological Sort.md",
     "Code/VS Code Tips.md",
-    "Code/Vim Motions.md",
-    "Code/Python Generators.md",
-    "Code/Threads.md",
-    "Code/Rust.md",
-    "Code/60-30-10 Color Rule.md",
-    "Pasted image 20240206194603.png",
-    "Pasted image 20240206194432.png",
-    "Pasted image 20240206194341.png",
-    "Learning/Conceptual Notes.md",
-    "Learning/Coding Practice Menu.md",
-    "Code/Rust Primitives.md",
-    "Code/Rust Custom Types.md",
-    "Code/Git.md",
-    "Code/Rust Printing and Formatting.md",
-    "Code/Function signatures.md",
-    "Code/C Sharp Reference Types.md",
-    "Code/Python.md",
-    "Code/Python Classes.md",
-    "Code/Pep8.md",
-    "Code/Encapsulation.md",
-    "Code/C Sharp.md",
-    "Code/Terminal tools to learn.md",
-    "Code/React and Django App.md",
     "Cooking/Recipes",
     "Untitled.canvas",
     "Electronics",
@@ -199,7 +200,6 @@
     "Math",
     "Code",
     "Uncategorized",
-    "Learning",
-    "Daily Notes"
+    "Learning"
   ]
 }

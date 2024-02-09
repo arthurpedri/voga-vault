@@ -66,3 +66,58 @@ fn main() {
 - Primitive types can be converted to each other through [[#Casting]].
 - Conversion between custom types is done (`struct, enum`) by using [[Rust Traits|traits]]. Generic conversions will use the `From` and `Into` traits.  
 - There are specific traits for converting the more common cases, in particular converting to and from `String`.
+
+### From and Into
+```rust
+impl From<i32> for Number {
+    fn from(item: i32) -> Self {
+        Number { value: item }
+    }
+}
+
+impl Into<Number> for i32 {
+    fn into(self) -> Number {
+        Number { value: self }
+    }
+}
+
+fn main() {
+    let num = Number::from(30);
+    let int = 5;
+    let num: Number = int.into();
+}
+```
+
+### TryFrom and TryInto
+- Are generic traits for fallible conversion between types, and as such, return `Result`. 
+
+### Converting to String
+To convert any type to a `String` is as simple as implementing the [`ToString`](https://doc.rust-lang.org/std/string/trait.ToString.html) trait for the type. Rather than doing so directly, you should implement the [`fmt::Display`](https://doc.rust-lang.org/std/fmt/trait.Display.html) trait which automagically provides [`ToString`](https://doc.rust-lang.org/std/string/trait.ToString.html) and also allows printing the type as discussed in the section on [`print!`](https://doc.rust-lang.org/stable/rust-by-example/hello/print.html).
+```rust
+use std::fmt;
+
+struct Circle {
+    radius: i32
+}
+
+impl fmt::Display for Circle {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "Circle of radius {}", self.radius)
+    }
+}
+
+fn main() {
+    let circle = Circle { radius: 6 };
+    println!("{}", circle.to_string());
+}
+```
+
+### Parsing a String
+- Can be done by specifying for type inference or using the [[Rust Turbofish|turbofish syntax]]
+- The type needs to have the `FromStr` trait implemented.
+```rust
+fn main() {
+    let parsed: i32 = "5".parse().unwrap();
+    let turbo_parsed = "10".parse::<i32>().unwrap();
+}
+```
