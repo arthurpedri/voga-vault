@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Control Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Control Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust.md",
+                "file": "Code/Rust Control Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust.md"
+                "file": "Code/Rust Control Flow.md"
               }
             }
           },
@@ -161,11 +161,16 @@
   },
   "active": "88fa5002c6904fb3",
   "lastOpenFiles": [
-    "Code/Rust Custom Types.md",
-    "Code/Rust.md",
-    "Code/Rust Types.md",
-    "Code/Rust Turbofish.md",
+    "Code/Rust Control Flow.md",
+    "Code/Rust Destructuring.md",
     "Code/Rust Printing and Formatting.md",
+    "Code/Rust Custom Types.md",
+    "Code/Rust Types.md",
+    "Code/Rust.md",
+    "Code/Sets.md",
+    "Code/Rust Primitives.md",
+    "Code/Rust Turbofish.md",
+    "Code/Rust Traits.md",
     "Projects/Possible Projects.md",
     "Uncategorized/TODO List.md",
     "Projects",
@@ -185,12 +190,7 @@
     "Pasted image 20240206194341.png",
     "Pasted image 20240206194432.png",
     "Quick Notes/Raspberry Pi Hole.md",
-    "Code/Rust Primitives.md",
     "Code/Rust Variables.md",
-    "Code/Rust Traits.md",
-    "Code/Sets.md",
-    "Code/Topological Sort.md",
-    "Code/VS Code Tips.md",
     "Cooking/Recipes",
     "Untitled.canvas",
     "Electronics",
