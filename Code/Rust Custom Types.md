@@ -15,7 +15,20 @@ struct Unit;
 // A tuple struct
 struct Pair(i32, f32);
 ```
-
+- New instances can be created from other instances with struct update syntax:
+```rust
+let user2 = User {
+    active: user1.active,
+    username: user1.username,
+    email: String::from("another@example.com"),
+    sign_in_count: user1.sign_in_count,
+};
+// is the same as:
+let user2 = User {
+    email: String::from("another@example.com"),
+    ..user1
+};
+```
 ## Enums
 ```rust
 // Create an `enum` to classify a web event. Note how both

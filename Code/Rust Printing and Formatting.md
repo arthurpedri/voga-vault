@@ -71,3 +71,14 @@ The `?` operator can be used to implement the display of a vector, since each `w
 // Try `write!` to see if it errors. If it errors, return the error. Otherwise continue.
 write!(f, "{}", value)?;
 ```
+
+
+## Format macro
+the `format!` macro creates a `String` using interpolation of runtime expressions
+```rust
+format!("test");                             // => "test"
+format!("hello {}", "world!");               // => "hello world!"
+format!("x = {}, y = {val}", 10, val = 30);  // => "x = 10, y = 30"
+let (x, y) = (1, 2);
+format!("{x} + {y} = 3");                    // => "1 + 2 = 3"
+```
