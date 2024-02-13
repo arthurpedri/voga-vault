@@ -30,6 +30,10 @@ fn main() {
 
 [[Rust Control Flow]]
 
+[[Rust Functions]]
+
+[[Rust Modules]]
+
 [[Rust Traits]]
 
 ## Arrays and Vectors

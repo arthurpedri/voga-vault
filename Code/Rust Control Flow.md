@@ -182,3 +182,106 @@ fn main() {
 ```
 
 ### If let
+The `if let` construct reads: "if `let` destructures `number` into `Some(i)`, evaluate the block (`{}`).
+```rust
+fn main() {
+    // All have type `Option<i32>`
+    let number = Some(7);
+    let letter: Option<i32> = None;
+    let emoticon: Option<i32> = None;
+
+    // The `if let` construct reads: "if `let` destructures `number` into
+    // `Some(i)`, evaluate the block (`{}`).
+    if let Some(i) = number {
+        println!("Matched {:?}!", i);
+    }
+
+    // If you need to specify a failure, use an else:
+    if let Some(i) = letter {
+        println!("Matched {:?}!", i);
+    } else {
+        // Destructure failed. Change to the failure case.
+        println!("Didn't match a number. Let's go with a letter!");
+    }
+
+    // Provide an altered failing condition.
+    let i_like_letters = false;
+
+    if let Some(i) = emoticon {
+        println!("Matched {:?}!", i);
+    // Destructure failed. Evaluate an `else if` condition to see if the
+    // alternate failure branch should be taken:
+    } else if i_like_letters {
+        println!("Didn't match a number. Let's go with a letter!");
+    } else {
+        // The condition evaluated false. This branch is the default:
+        println!("I don't like letters. Let's go with an emoticon :)!");
+    }
+}
+```
+- Also works for enums, and can be used even in cases where the enum doesn't implement `PartialEq`
+```rust
+// This enum purposely neither implements nor derives PartialEq.
+// That is why comparing Foo::Bar == a fails below.
+enum Foo {Bar}
+
+fn main() {
+    let a = Foo::Bar;
+
+    // Variable a matches Foo::Bar
+    if let Foo::Bar == a {
+    // ^-- this causes a compile-time error without `let`.
+        println!("a is foobar");
+    }
+}
+```
+
+### Let-else
+- With `let`-`else`, a refutable pattern can match and bind variables in the surrounding scope like a normal `let`, or else diverge (e.g. `break`, `return`, `panic!`) when the pattern doesn't match.
+```rust
+fn get_count_item(s: &str) -> (u64, &str) {
+    let mut it = s.split(' ');
+    let (Some(count_str), Some(item)) = (it.next(), it.next()) else {
+        panic!("Can't segment count item pair: '{s}'");
+    };
+    let Ok(count) = u64::from_str(count_str) else {
+        panic!("Can't parse integer: '{count_str}'");
+    };
+    (count, item)
+}
+```
+- The scope of name bindings is the main thing that makes this different from `match` or `if let`-`else` expressions. You could previously approximate these patterns with an unfortunate bit of repetition and an outer `let`:
+```rust
+let (count_str, item) = match (it.next(), it.next()) {
+    (Some(count_str), Some(item)) => (count_str, item),
+    _ => panic!("Can't segment count item pair: '{s}'"),
+};
+let count = if let Ok(count) = u64::from_str(count_str) {
+    count
+} else {
+    panic!("Can't parse integer: '{count_str}'");
+};
+```
+
+### While let
+Similar to `if let`, `while let` can make awkward `match` sequences more tolerable. Consider the following sequence that increments `i`:
+```rust
+// Make `optional` of type `Option<i32>`
+let mut optional = Some(0);
+
+// This reads: "while `let` destructures `optional` into
+// `Some(i)`, evaluate the block (`{}`). Else `break`.
+while let Some(i) = optional {
+    if i > 9 {
+        println!("Greater than 9, quit!");
+        optional = None;
+    } else {
+        println!("`i` is `{:?}`. Try again.", i);
+        optional = Some(i + 1);
+    }
+    // ^ Less rightward drift and doesn't require
+    // explicitly handling the failing case.
+}
+// ^ `if let` had additional optional `else`/`else if`
+// clauses. `while let` does not have these.
+```
