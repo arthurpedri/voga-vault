@@ -34,6 +34,8 @@ fn main() {
 
 [[Rust Modules]]
 
+[[Rust Hash Maps]]
+
 [[Rust Traits]]
 
 ## Arrays and Vectors

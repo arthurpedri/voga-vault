@@ -119,3 +119,182 @@ fn main() {
     //my_mod::private_nested::restricted_function();
 }
 ```
+
+## Struct visibility
+```rust
+mod my {
+    // A public struct with a public field of generic type `T`
+    pub struct OpenBox<T> {
+        pub contents: T,
+    }
+
+    // A public struct with a private field of generic type `T`
+    pub struct ClosedBox<T> {
+        contents: T,
+    }
+
+    impl<T> ClosedBox<T> {
+        // A public constructor method
+        pub fn new(contents: T) -> ClosedBox<T> {
+            ClosedBox {
+                contents: contents,
+            }
+        }
+    }
+}
+
+fn main() {
+    // Public structs with public fields can be constructed as usual
+    let open_box = my::OpenBox { contents: "public information" };
+
+    // and their fields can be normally accessed.
+    println!("The open box contains: {}", open_box.contents);
+
+    // Public structs with private fields cannot be constructed using field names.
+    // Error! `ClosedBox` has private fields
+    //let closed_box = my::ClosedBox { contents: "classified information" };
+    // TODO ^ Try uncommenting this line
+
+    // However, structs with private fields can be created using
+    // public constructors
+    let _closed_box = my::ClosedBox::new("classified information");
+
+    // and the private fields of a public struct cannot be accessed.
+    // Error! The `contents` field is private
+    //println!("The closed box contains: {}", _closed_box.contents);
+    // TODO ^ Try uncommenting this line
+}
+```
+
+## Use declaration
+The `use` declaration can be used to bind a full path to a new name, for easier access. It is often used like this:
+```rust
+use crate::deeply::nested::{
+    my_first_function,
+    my_second_function,
+    AndATraitType
+};
+
+fn main() {
+    my_first_function();
+}
+```
+You can use the `as` keyword to bind imports to a different name:
+```rust
+// Bind the `deeply::nested::function` path to `other_function`.
+use deeply::nested::function as other_function;
+
+fn function() {
+    println!("called `function()`");
+}
+
+mod deeply {
+    pub mod nested {
+        pub fn function() {
+            println!("called `deeply::nested::function()`");
+        }
+    }
+}
+
+fn main() {
+    // Easier access to `deeply::nested::function`
+    other_function();
+
+    println!("Entering block");
+    {
+        // This is equivalent to `use deeply::nested::function as function`.
+        // This `function()` will shadow the outer one.
+        use crate::deeply::nested::function;
+
+        // `use` bindings have a local scope. In this case, the
+        // shadowing of `function()` is only in this block.
+        function();
+
+        println!("Leaving block");
+    }
+
+    function();
+}
+```
+
+## Super and self
+```rust
+fn function() {
+    println!("called `function()`");
+}
+
+mod cool {
+    pub fn function() {
+        println!("called `cool::function()`");
+    }
+}
+
+mod my {
+    fn function() {
+        println!("called `my::function()`");
+    }
+    
+    mod cool {
+        pub fn function() {
+            println!("called `my::cool::function()`");
+        }
+    }
+    
+    pub fn indirect_call() {
+        // Let's access all the functions named `function` from this scope!
+        print!("called `my::indirect_call()`, that\n> ");
+        
+        // The `self` keyword refers to the current module scope - in this case `my`.
+        // Calling `self::function()` and calling `function()` directly both give
+        // the same result, because they refer to the same function.
+        self::function();
+        function();
+        
+        // We can also use `self` to access another module inside `my`:
+        self::cool::function();
+        
+        // The `super` keyword refers to the parent scope (outside the `my` module).
+        super::function();
+        
+        // This will bind to the `cool::function` in the *crate* scope.
+        // In this case the crate scope is the outermost scope.
+        {
+            use crate::cool::function as root_function;
+            root_function();
+        }
+    }
+}
+
+fn main() {
+    my::indirect_call();
+}
+```
+
+## File hierarchy
+- Modules can be mapped to a file/directory hierarchy.
+- We can access modules inside directories by inserting the file with `rs` extension that has the same name as the directory.
+```
+$ tree .
+.
+├── my
+│   ├── inaccessible.rs
+│   └── nested.rs
+├── my.rs
+└── split.rs
+
+```
+In `split.rs`:
+```rust
+// This declaration will look for a file named `my.rs` and will
+// insert its contents inside a module named `my` under this scope
+mod my;
+```
+In `my.rs`:
+```rust
+// Similarly `mod inaccessible` and `mod nested` will locate the `nested.rs`
+// and `inaccessible.rs` files and insert them here under their respective
+// modules
+mod inaccessible;
+pub mod nested;
+```
+- With this we have access to the nested files.
