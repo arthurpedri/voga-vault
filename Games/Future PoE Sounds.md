@@ -1,0 +1,3 @@
+- Twice - Bloom "Twice the magic of the sun and moon"
+- Le Sserafim Sakura "kkura!" https://www.youtube.com/watch?v=s4RVyjAMfmI
+- 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Gym App.md",
+                "file": "Games/Future PoE Sounds.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Gym App.md",
+                "file": "Games/Future PoE Sounds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Gym App.md",
+                "file": "Games/Future PoE Sounds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Gym App.md"
+                "file": "Games/Future PoE Sounds.md"
               }
             }
           },
@@ -161,8 +161,9 @@
   },
   "active": "cf44b99c1dcd7575",
   "lastOpenFiles": [
-    "Projects/Possible Projects.md",
     "Projects/Gym App.md",
+    "Games/Future PoE Sounds.md",
+    "Projects/Possible Projects.md",
     "Code/Rust Control Flow.md",
     "Code/Rust Custom Types.md",
     "Code/Rust Primitives.md",
@@ -187,7 +188,6 @@
     "Projects",
     "Quick Notes/Lista pra casa nova.md",
     "Quick Notes/Electric pianos.md",
-    "Uncategorized/Obsidian Notes.md",
     "Pasted image 20240206194603.png",
     "Pasted image 20240206194341.png",
     "Pasted image 20240206194432.png",
