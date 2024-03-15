@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c16d6cd56f03651d",
+        "id": "4d58d5df68f8bfd3",
         "type": "tabs",
         "children": [
           {
-            "id": "cf44b99c1dcd7575",
+            "id": "79dd705017129579",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Future PoE Sounds.md",
+                "file": "Code/Encapsulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Games/Future PoE Sounds.md",
+                "file": "Code/Encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Games/Future PoE Sounds.md",
+                "file": "Code/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/Future PoE Sounds.md"
+                "file": "Code/Encapsulation.md"
               }
             }
           },
@@ -159,35 +159,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf44b99c1dcd7575",
+  "active": "79dd705017129579",
   "lastOpenFiles": [
-    "Projects/Gym App.md",
-    "Games/Future PoE Sounds.md",
-    "Projects/Possible Projects.md",
-    "Code/Rust Control Flow.md",
-    "Code/Rust Custom Types.md",
-    "Code/Rust Primitives.md",
-    "Code/Rust.md",
-    "Code/Rust Closures.md",
-    "Code/Rust Modules.md",
-    "Code/Rust Types.md",
-    "Code/Rust Variables.md",
-    "Code/Rust Printing and Formatting.md",
-    "Code/Rust Strings.md",
-    "Code/Untitled.md",
-    "Code/Rust Hash Maps.md",
-    "Code/Rust Traits.md",
-    "Code/Hash Tables.md",
-    "Code/Rust Functions.md",
-    "Code/Rust Turbofish.md",
-    "Code/VS Code Tips.md",
-    "Code/Vim Motions.md",
-    "Code/Rust Destructuring.md",
-    "Code/Sets.md",
-    "Uncategorized/TODO List.md",
-    "Projects",
-    "Quick Notes/Lista pra casa nova.md",
+    "Code/CSS.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Code/Code Optimization.md",
+    "Code/File Checksum.md",
+    "Code/Bash.md",
+    "Code/60-30-10 Color Rule.md",
     "Quick Notes/Electric pianos.md",
+    "Daily Notes/19-08-2023.md",
+    "Daily Notes/31-07-2023.md",
+    "Daily Notes/08-08-2023.md",
+    "Daily Notes/10-08-2023.md",
+    "Daily Notes/09-08-2023.md",
+    "Code/ChatGPT.md",
+    "Code/Method (or Function) Overloading.md",
+    "Learning/Primeagen Learning New Programming Languages.md",
+    "Projects/Liar Game app.md",
+    "Code/Memoization.md",
+    "Code/Rust/Rust.md",
+    "Code/Rust/Rust Printing and Formatting.md",
+    "Code/Python/Python.md",
+    "Code/JS/Javascript.md",
+    "Code/C Sharp/C Sharp Reference Types.md",
+    "Code/C Sharp/C Sharp.md",
+    "Code/C Sharp/C Sharp LINQ.md",
+    "Code/React.md",
+    "Code/C Sharp",
+    "Code/JS",
+    "Code/Rust",
+    "Code/Python",
+    "Code/React and Django App.md",
+    "Projects",
     "Pasted image 20240206194603.png",
     "Pasted image 20240206194341.png",
     "Pasted image 20240206194432.png",
@@ -196,10 +200,6 @@
     "Electronics",
     "Quick Notes",
     "Cooking",
-    "Games",
-    "Math",
-    "Code",
-    "Uncategorized",
-    "Learning"
+    "Games"
   ]
 }
