@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Encapsulation.md",
+                "file": "Quick Notes/Lista pra casa nova.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Encapsulation.md",
+                "file": "Quick Notes/Lista pra casa nova.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Encapsulation.md",
+                "file": "Quick Notes/Lista pra casa nova.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Encapsulation.md"
+                "file": "Quick Notes/Lista pra casa nova.md"
               }
             }
           },
@@ -162,11 +162,12 @@
   "active": "79dd705017129579",
   "lastOpenFiles": [
     "Code/CSS.md",
+    "Code/60-30-10 Color Rule.md",
+    "Code/Encapsulation.md",
     "Code/Creating an interesting project for interviews.md",
     "Code/Code Optimization.md",
     "Code/File Checksum.md",
     "Code/Bash.md",
-    "Code/60-30-10 Color Rule.md",
     "Quick Notes/Electric pianos.md",
     "Daily Notes/19-08-2023.md",
     "Daily Notes/31-07-2023.md",
@@ -190,7 +191,6 @@
     "Code/JS",
     "Code/Rust",
     "Code/Python",
-    "Code/React and Django App.md",
     "Projects",
     "Pasted image 20240206194603.png",
     "Pasted image 20240206194341.png",

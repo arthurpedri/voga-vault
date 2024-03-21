@@ -1,4 +1,5 @@
-- Raquete inseto
 - Desentupidor de vaso
 - Tupperware/Containers de comida retangulares, não circulares
-- 
+- Mesa PC 180x60cm 
+- Geladeira 185x73cm(Profundidade +- 60cm)
+- Microondas 50cm Width x 31cm Height x (40cm +- Depth) 

@@ -15,9 +15,9 @@ display:
   inline-grid -> same but inline
 
 flex stuff:
-  justify-content -> sets horizontal layout of items inside the flex parent
-  align-items -> sets vertical layout of items inside the flex parent
-  align-content -> same but for rows in the flex parent
+### justify-content -> sets layout of items in the main flex-direction
+### align-items -> sets layout of items in the cross flex-direction (columns when flex direction is row)
+### align-content -> sets the behavior for the content when wrap occurs
   flex-shrink(def:1) / flex-grow(def:0) -> sets flex items to shrink or grow when their
     container can't hold them properly anymore. A 2 will grow twice as fast as a 1, etc..
   flex:
