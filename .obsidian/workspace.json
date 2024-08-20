@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Notes/Lista pra casa nova.md",
+                "file": "Sports/Ski Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Notes/Lista pra casa nova.md",
+                "file": "Sports/Ski Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Notes/Lista pra casa nova.md",
+                "file": "Sports/Ski Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Notes/Lista pra casa nova.md"
+                "file": "Sports/Ski Notes.md"
               }
             }
           },
@@ -161,10 +161,23 @@
   },
   "active": "79dd705017129579",
   "lastOpenFiles": [
-    "Code/CSS.md",
+    "Code/Algorithm Patterns (Leetcode).md",
+    "Sports/Ski Notes.md",
+    "Sports",
     "Code/60-30-10 Color Rule.md",
-    "Code/Encapsulation.md",
     "Code/Creating an interesting project for interviews.md",
+    "Code/C Sharp/C Sharp Style Guide.md",
+    "Code/C Sharp/C Sharp LINQ.md",
+    "Code/C Sharp/C Sharp.md",
+    "Learning/Zettelkasten Method.md",
+    "Learning/Primeagen Learning New Programming Languages.md",
+    "Learning/Literature Notes.md",
+    "Learning/Fleeting Notes.md",
+    "Learning/Conceptual Notes.md",
+    "Learning/Coding Practice Menu.md",
+    "Quick Notes/Lista pra casa nova.md",
+    "Code/CSS.md",
+    "Code/Encapsulation.md",
     "Code/Code Optimization.md",
     "Code/File Checksum.md",
     "Code/Bash.md",
@@ -175,18 +188,6 @@
     "Daily Notes/10-08-2023.md",
     "Daily Notes/09-08-2023.md",
     "Code/ChatGPT.md",
-    "Code/Method (or Function) Overloading.md",
-    "Learning/Primeagen Learning New Programming Languages.md",
-    "Projects/Liar Game app.md",
-    "Code/Memoization.md",
-    "Code/Rust/Rust.md",
-    "Code/Rust/Rust Printing and Formatting.md",
-    "Code/Python/Python.md",
-    "Code/JS/Javascript.md",
-    "Code/C Sharp/C Sharp Reference Types.md",
-    "Code/C Sharp/C Sharp.md",
-    "Code/C Sharp/C Sharp LINQ.md",
-    "Code/React.md",
     "Code/C Sharp",
     "Code/JS",
     "Code/Rust",
@@ -199,7 +200,6 @@
     "Untitled.canvas",
     "Electronics",
     "Quick Notes",
-    "Cooking",
-    "Games"
+    "Cooking"
   ]
 }
