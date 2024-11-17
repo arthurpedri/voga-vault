@@ -11,14 +11,12 @@
             "id": "79dd705017129579",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Code/Vim Motions.md",
-                "mode": "source",
-                "source": false
+                "file": "Code/vimcheatsheetDark.png"
               },
-              "icon": "lucide-file",
-              "title": "Vim Motions"
+              "icon": "lucide-image",
+              "title": "vimcheatsheetDark"
             }
           }
         ],
@@ -179,9 +177,10 @@
   },
   "active": "79dd705017129579",
   "lastOpenFiles": [
-    "vimcheatsheetDark.png",
-    "Code/vimcheatsheetDark.png",
     "Code/Vim Motions.md",
+    "Code/vimcheatsheetDark.png",
+    "Code/Algorithm Patterns (Leetcode).md",
+    "vimcheatsheetDark.png",
     "Pasted image 20240206194432.png",
     "Music",
     "Uncategorized/Obsidian Notes.md",
@@ -190,7 +189,6 @@
     "Sports/Ski Notes.md",
     "Code/VS Code Tips.md",
     "Pasted image 20240206194603.png",
-    "Code/Algorithm Patterns (Leetcode).md",
     "Sports",
     "Code/60-30-10 Color Rule.md",
     "Code/Creating an interesting project for interviews.md",
