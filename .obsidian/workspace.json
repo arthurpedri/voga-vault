@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sports/Ski Notes.md",
+                "file": "Code/Vim Motions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Vim Motions"
             }
           }
         ],
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -94,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ski Notes"
             }
           },
           {
@@ -106,7 +116,9 @@
                 "file": "Sports/Ski Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ski Notes"
             }
           },
           {
@@ -117,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,7 +141,9 @@
               "type": "outline",
               "state": {
                 "file": "Sports/Ski Notes.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ski Notes"
             }
           },
           {
@@ -139,7 +155,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -161,8 +179,18 @@
   },
   "active": "79dd705017129579",
   "lastOpenFiles": [
-    "Code/Algorithm Patterns (Leetcode).md",
+    "vimcheatsheetDark.png",
+    "Code/vimcheatsheetDark.png",
+    "Code/Vim Motions.md",
+    "Pasted image 20240206194432.png",
+    "Music",
+    "Uncategorized/Obsidian Notes.md",
+    "Uncategorized/TODO List.md",
+    "Uncategorized/Markdown Cheatsheet.md",
     "Sports/Ski Notes.md",
+    "Code/VS Code Tips.md",
+    "Pasted image 20240206194603.png",
+    "Code/Algorithm Patterns (Leetcode).md",
     "Sports",
     "Code/60-30-10 Color Rule.md",
     "Code/Creating an interesting project for interviews.md",
@@ -182,24 +210,15 @@
     "Code/File Checksum.md",
     "Code/Bash.md",
     "Quick Notes/Electric pianos.md",
-    "Daily Notes/19-08-2023.md",
-    "Daily Notes/31-07-2023.md",
-    "Daily Notes/08-08-2023.md",
-    "Daily Notes/10-08-2023.md",
-    "Daily Notes/09-08-2023.md",
-    "Code/ChatGPT.md",
     "Code/C Sharp",
     "Code/JS",
     "Code/Rust",
     "Code/Python",
     "Projects",
-    "Pasted image 20240206194603.png",
     "Pasted image 20240206194341.png",
-    "Pasted image 20240206194432.png",
     "Cooking/Recipes",
     "Untitled.canvas",
     "Electronics",
-    "Quick Notes",
-    "Cooking"
+    "Quick Notes"
   ]
 }

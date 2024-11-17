@@ -1,3 +1,6 @@
+![[vimcheatsheetDark.png]]
+
+
 `f` - find after
 `F`- Find before
 `n` - next
