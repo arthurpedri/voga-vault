@@ -54,6 +54,9 @@
 - **`>>`**: Shift line **right**
 - **`<<`**: Shift line **left**
 
+### Join
+
+- **`J`**: Join Line bellow to current line (works with counts `3J` for example)
 ### Undo and Redo
 
 - **`u`**: **U**ndo
