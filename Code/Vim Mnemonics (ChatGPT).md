@@ -175,6 +175,7 @@ The `g` key essentially extends Vim's basic motions and commands with additional
 
 - **`f<char>`**: **F**ind the next occurrence of **char** on the current line (e.g., `ft` finds the next "t")
 - **`F<char>`**: Find **backwards** to the previous occurrence of **char**
+- **`t<char>`**: Find the next occurrence of **char** on the current line and put the cursor before it. **T**ill occurrence (e.g., `tt` finds the next "t")
 - **`;`**: Repeat the last **f**ind command in the same direction (for `f`, `t`, etc.)
 - **`,`**: Repeat the last **f**ind command in the **opposite** direction
 
