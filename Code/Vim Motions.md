@@ -1,5 +1,6 @@
 ![[vimcheatsheetDark.png]]
 
+[[Vim Mnemonics (ChatGPT)]]
 
 `f` - find after
 `F`- Find before

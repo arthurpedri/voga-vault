@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79dd705017129579",
+            "id": "0b8379c0c9e29832",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Code/vimcheatsheetDark.png"
+                "file": "Code/Vim Mnemonics (ChatGPT).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "vimcheatsheetDark"
+              "icon": "lucide-file",
+              "title": "Vim Mnemonics (ChatGPT)"
             }
           }
         ],
@@ -175,9 +177,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79dd705017129579",
+  "active": "0b8379c0c9e29832",
   "lastOpenFiles": [
     "Code/Vim Motions.md",
+    "Code/Vim Mnemonics (ChatGPT).md",
     "Code/vimcheatsheetDark.png",
     "Code/Algorithm Patterns (Leetcode).md",
     "vimcheatsheetDark.png",
