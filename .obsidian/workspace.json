@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Go/Go.md",
+                "file": "Music/Harmony in Context Book.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "Harmony in Context Book"
             }
           }
         ],
@@ -179,6 +179,12 @@
   },
   "active": "0b8379c0c9e29832",
   "lastOpenFiles": [
+    "Music/MuseScore Shortcuts.md",
+    "Music/Suspended Chords.md",
+    "Music/Seventh Chords (Tétrades).md",
+    "Music/Music Theory.md",
+    "Music/Harmony in Context Book.md",
+    "Code/Go/Go.md",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
     "Pasted image 20240206194432.png",
@@ -190,7 +196,6 @@
     "Quick Notes/Ferramentas.md",
     "Code/C Sharp/C Sharp LINQ.md",
     "Code/C Sharp/C Sharp.md",
-    "Code/Go/Go.md",
     "Code/JS/JS DOM.md",
     "Code/JS/JS Enums.md",
     "Code/JS/JS Functions.md",
@@ -202,11 +207,6 @@
     "Code/Rust/Rust Control Flow.md",
     "Code/Rust/Rust.md",
     "Code/Regex.md",
-    "Games/Rog Crafting League Start.md",
-    "Games/Future PoE Sounds.md",
-    "Projects/Video Downloader.md",
-    "Daily Notes/09-08-2023.md",
-    "Projects/Generate narrations.md",
     "Code/Go",
     "Code/vimcheatsheetDark.png",
     "Music",
