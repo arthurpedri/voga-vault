@@ -10,7 +10,7 @@ return errors.New("Error Name")
 ```
 
 ### Slices
-- `array[inclusive:exclusive]` or `array[:]` or `array[2:]`, etc..
+- `array[inclusive:exclusive]` or `array[:]` or `qrray[2:]`, etc..
 - Slices hold references to an underlying array, and if you assign one slice to another, both refer to the **same** array
 -  If a function takes a slice argument, any changes it makes to the elements of the slice _will be visible to the caller_, analogous to passing a [pointer](https://en.wikipedia.org/wiki/Pointer_%28computer_programming%29) to the underlying array.
 - The `make` function can create a slice filled with the zero value of the type

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Music/Harmony in Context Book.md",
+                "file": "Code/Go/Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harmony in Context Book"
+              "title": "Go"
             }
           }
         ],
@@ -179,11 +179,13 @@
   },
   "active": "0b8379c0c9e29832",
   "lastOpenFiles": [
+    "Code/ChatGPT.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Music/Harmony in Context Book.md",
     "Music/MuseScore Shortcuts.md",
     "Music/Suspended Chords.md",
     "Music/Seventh Chords (Tétrades).md",
     "Music/Music Theory.md",
-    "Music/Harmony in Context Book.md",
     "Code/Go/Go.md",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
@@ -206,7 +208,6 @@
     "Code/Python/Python Functions.md",
     "Code/Rust/Rust Control Flow.md",
     "Code/Rust/Rust.md",
-    "Code/Regex.md",
     "Code/Go",
     "Code/vimcheatsheetDark.png",
     "Music",
