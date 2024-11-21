@@ -1,0 +1,3 @@
+- Is the change from one tonality to another
+- May or may not be accompanied by a change in key signature (as when modulating to the relative minor key)
+- Modulations articulate or create the structure or form of many pieces, as well as add interest
