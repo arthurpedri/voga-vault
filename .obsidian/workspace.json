@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d58d5df68f8bfd3",
+        "id": "b0dc8e38d49b6c35",
         "type": "tabs",
         "children": [
           {
-            "id": "0b8379c0c9e29832",
+            "id": "d7d0037b795708db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Drawing/Drawing Roadmap.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Drawing Roadmap"
+              "title": "New tab"
             }
           }
         ],
@@ -177,34 +173,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b8379c0c9e29832",
+  "active": "d7d0037b795708db",
   "lastOpenFiles": [
-    "Uncategorized/Markdown Cheatsheet.md",
-    "Drawing/Drawing Roadmap.md",
-    "Music/Inversions.md",
-    "Music/Sequence (Music).md",
-    "Music/Tonal Levels.md",
+    "Music/9 Voice Leading Rules.md",
     "Music/Harmony in Context Book.md",
+    "Music/Vocal Motions.md",
+    "Music/Forbidden Parallels.md",
+    "Music/Counterpoint (Music).md",
+    "Music/Voices (Music).md",
+    "Music/Voice Leading.md",
+    "Music/Voicings (Music).md",
+    "Music/Sequence (Music).md",
+    "Uncategorized/Obsidian Notes.md",
+    "Uncategorized/TODO List.md",
     "Music/Cadence.md",
+    "Code/Python/Python.md",
+    "Code/Python/Python Classes.md",
+    "Uncategorized/Markdown Cheatsheet.md",
+    "Music/Tonal Levels.md",
+    "Learning/Coding Practice Menu.md",
+    "Drawing/Drawing Roadmap.md",
+    "Drawing/Sketching.md",
+    "Drawing/Observation.md",
+    "Music/Inversions.md",
     "Music/Modulation.md",
     "Music/Roman numeral analysis (Music).md",
     "Learning/Primeagen Learning New Programming Languages.md",
     "Code/Algorithm Patterns (Leetcode).md",
     "Code/60-30-10 Color Rule.md",
-    "Code/Bash.md",
-    "Code/Code Optimization.md",
-    "Code/Hash Tables.md",
-    "Code/Git README.md",
-    "Code/Git.md",
-    "Code/Function signatures.md",
-    "Code/File Checksum.md",
-    "Code/Enumerated type.md",
-    "Code/Encapsulation.md",
-    "Uncategorized/Obsidian Notes.md",
-    "Code/Rust/Rust Variables.md",
-    "Code/Rust/Rust Types.md",
-    "Code/Rust/Rust Turbofish.md",
-    "Code/Rust/Rust Strings.md",
     "Drawing",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
