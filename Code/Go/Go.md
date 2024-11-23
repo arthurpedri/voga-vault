@@ -90,3 +90,22 @@ elem, ok := m[key] // Check if a key exists
 ```
 - If `key` is in `m`, then `ok` is `true` and `elem` is the value as expected.
 - If `key` is not in the map, then `ok` is `false` and `elem` is the zero value for the map's element type.
+#### Key types
+- Map keys may be of any type that is comparable
+    - Slices, maps and functions cannot be compared using `==` and may not be used as map keys
+- Structs can be useful as map keys
+
+### For, if optional arguments
+- `For` and `if` statements can have more or less arguments depending on their use
+- A `for` argument with only a condition is the `while` in go
+- `if` statements can declare and check the condition of the variable created in the arguments of the `if`:
+```go
+names := map[string]int{}
+missingNames := []string{}
+
+if _, ok := names["Denna"]; !ok {
+    // if the key doesn't exist yet,
+    // append the name to the missingNames slice
+    missingNames = append(missingNames, "Denna")
+}
+```
