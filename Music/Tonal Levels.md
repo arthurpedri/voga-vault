@@ -11,6 +11,8 @@ The main tonal levels in Western tonal music are based on three primary function
 
 In practice, many chords are associated with these functions. For instance, ii (the supertonic) often acts as a pre-dominant, and vii° (the leading tone diminished chord) functions as a dominant.
 
+## [[Chord Functions]]
+
 ### 2. **Hierarchical Levels in Tonal Music**
 
 In a broader sense, tonal levels also refer to the _hierarchical nature_ of chords and progressions within a piece. Some harmonies are primary and foundational, while others are secondary, adding color or tension. For example:

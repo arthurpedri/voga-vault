@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Go/Go.md",
+                "file": "Music/Chord Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "Chord Functions"
             }
           }
         ],
@@ -179,8 +179,12 @@
   },
   "active": "e4c60035bd37f412",
   "lastOpenFiles": [
-    "Projects/Git Obsidian Markdown project.md",
+    "Music/Tonal Levels.md",
+    "Music/Suspended Chords.md",
+    "Music/Roman numeral analysis (Music).md",
+    "Music/Chord Functions.md",
     "Code/Go/Go.md",
+    "Projects/Git Obsidian Markdown project.md",
     "Drawing/Drawing Boxes.md",
     "Drawing/Observation.md",
     "Games/Rog Crafting League Start.md",
@@ -188,7 +192,6 @@
     "Code/Primeagen Learning New Programming Languages.md",
     "Drawing/Drawing Roadmap.md",
     "Quick Notes/Lista pra casa nova.md",
-    "Music/Roman numeral analysis (Music).md",
     "Music/Harmony in Context Book.md",
     "Music/Seventh Chords (Tétrades).md",
     "Music/Sequence (Music).md",
@@ -200,11 +203,8 @@
     "Music/Voices (Music).md",
     "Music/Voicings (Music).md",
     "Music/Vocal Motions.md",
-    "Music/Tonal Levels.md",
     "Music/Forbidden Parallels.md",
     "Music/Modulation.md",
-    "Music/9 Voice Leading Rules.md",
-    "Music/Counterpoint (Music).md",
     "Drawing",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
