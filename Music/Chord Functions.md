@@ -4,5 +4,5 @@
 - Unstable, often **preceding dominant**
 - Chords that **move away from the tonic** and typically transition to tension chords
 - Can represent movement
-## **Dominant( V(V7), vii dim)**
+## **Dominant(V(V7), vii dim)**
 - Unstable, pointing **towards tonics**
