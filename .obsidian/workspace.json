@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/AI CLI.md",
+                "file": "Code/Go/Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI CLI"
+              "title": "Go"
             }
           }
         ],
@@ -179,11 +179,14 @@
   },
   "active": "e4c60035bd37f412",
   "lastOpenFiles": [
-    "Projects/Git Obsidian Markdown project.md",
-    "Projects/AI CLI.md",
-    "Drawing/Learning to draw.md",
-    "Drawing/Sketching.md",
+    "Drawing/Drawing Roadmap.md",
+    "Learning/Conceptual Notes.md",
+    "Learning/Coding Practice Menu.md",
     "Drawing/Observation.md",
+    "Drawing/Learning to draw.md",
+    "Projects/AI CLI.md",
+    "Projects/Git Obsidian Markdown project.md",
+    "Drawing/Sketching.md",
     "Music/Chord Functions.md",
     "Music/Tonal Levels.md",
     "Music/Suspended Chords.md",
@@ -193,7 +196,6 @@
     "Games/Rog Crafting League Start.md",
     "Games/Future PoE Sounds.md",
     "Code/Primeagen Learning New Programming Languages.md",
-    "Drawing/Drawing Roadmap.md",
     "Quick Notes/Lista pra casa nova.md",
     "Music/Harmony in Context Book.md",
     "Music/Seventh Chords (Tétrades).md",
@@ -203,8 +205,6 @@
     "Music/Music Theory.md",
     "Music/MuseScore Shortcuts.md",
     "Music/Voice Leading.md",
-    "Music/Voices (Music).md",
-    "Music/Voicings (Music).md",
     "Drawing",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
