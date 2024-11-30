@@ -62,6 +62,12 @@ for i := range slice {}
 
 // value only
 for _, v := range slice {}
+
+// Iterate from 0-9 without tracking i
+for _ = range 10 {} 
+
+// Iterate values from channel until channel is closed
+for valueFromChannel := range aChannel {}
 ```
 
 Iterate over a **map**:
@@ -135,3 +141,121 @@ if _, ok := names["Denna"]; !ok {
 ```
 
 ## Pointers
+```go
+var p *int
+myString := "hello"
+myStringPtr := &myString
+```
+- Empty pointers are `nil` pointers
+- Unlike `C`, go has no pointer arithmetic
+```go
+msgTotal := *analytics.MessagesTotal // This creates an error
+// Using selector expressions
+msgTotal := analytics.MessagesTotal // Shorthand for (*analytics).MessagesTotal
+```
+This approach is shorthand for `(*analytics).MessagesTotal` and is the recommended, simplest way to access struct fields in Go.
+- `nil` pointers will panic (runtime error) if dereferenced, check for `nil` before dereferencing them
+```go
+// Pointer receiver
+func (c *car) setColor(color string) {
+	c.color = color
+}
+// Non-pointer receiver
+func (c car) setColor(color string) {
+	c.color = color
+}
+
+c.setColor("blue") // Will change with pointer receiver only
+```
+- Since methods often need to modify their receiver, ==pointer receivers are more common than value receivers==
+- Methods with pointer receivers don't require that a pointer is used to call the method. The pointer will automatically be derived from the value.
+
+## Packages
+- `package main` has an entrypoint at the `main()` function
+- A `main` package is compiled into an executable program
+- A package with any other name is a "library package" and they simply export functionality to be used by other packages
+### Naming
+- By *convention* a package's name is the same as the last element of its import path
+```go
+// for math/rand
+package rand
+```
+### One package per directory
+- A directory of Go code can have **at most** one package. All `.go` files in a directory must belong to the same package, this is true for main and library packages
+- If they have more than one package the compiler will throw an error
+
+### Clean Packages
+Rules of thumb for clean, small and reusable packages.
+#### Hide internal logic
+- Basically [[Encapsulation]] from OOP
+- Only expose the functions that need to be exported, not the internal logic
+#### Don't change APIs
+- Not changing exported function's signatures
+- Unexported functions can and should change often, for various reasons
+#### Don't export functions from the main package
+- A `main` package isn't a library, there's no need to export functions from it
+#### Packages shouldn't know about dependents
+- A package should never have specific knowledge about a particular application that uses it
+## Modules
+A mule is a collection of Go packages that are released together
+### One module per repo (usually)
+A file named `go.mod` at the root of a project declares the module. It contains:
+- The module path
+- The version of the Go language your project requires
+- Optionally, any external package dependencies your project has
+```
+module github.com/bootdotdev/exampleproject
+
+go 1.23.0
+
+require github.com/google/examplepackage v1.3.0
+```
+- Each module's path not only serves as an import path prefix for the packages within but _also indicates where the go command should look to download it_
+### Standard library modules
+- Modules in the standard library do not have prefixes
+
+### Exporting
+- Only **capitalized** names are exported
+- Uncapitalized names are private
+
+## Concurrency
+```go
+go doSomething()
+```
+- The `go` keyword is used to spawn a new *goroutine* and then continues executing the code concurrently
+
+### Channels
+Channels are a typed, thread-safe queue, they allow different goroutines to communicate with each other
+#### Create a channel
+Like maps and slices, channels must be created _before_ use. They also use the same `make` keyword:
+```go
+ch := make(chan int)
+bufferedCh := make(chan int, 100)
+```
+- A buffer allows the channel to hold a fixed number of values before blocking
+#### Send data to a channel
+```go
+ch <- 69
+```
+The `<-` operator is called the _channel operator_. Data flows in the direction of the arrow. This operation will ==_block_ until another goroutine is ready to receive the value==
+#### Receive data from a channel
+```go
+v := <-ch
+```
+This reads and removes a value from the channel and saves it into the variable `v`. This operation will ==_block_ until there is a value in the channel to be read==
+#### Receive anything on channel
+```go
+<-ch
+```
+This will block until it pops a single item off the channel, then continue, discarding the item
+#### Closing channels
+```go
+close(ch)
+```
+- Channels can be checked using the same `ok` syntax:
+ ```go
+ v, ok := <-ch // false if the channel is empty and closed
+```
+- ==Sending on a closed channel will cause a panic==
+- Closing isn't necessary, they will still be garbage collected if the're unused
+- Close channels to indicate explicitly to a receiver that nothing else is going to come across
