@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Go/Go.md",
+                "file": "Drawing/Drawabox.com/Lesson 0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "Lesson 0"
             }
           }
         ],
@@ -179,8 +179,11 @@
   },
   "active": "e4c60035bd37f412",
   "lastOpenFiles": [
-    "Code/Pointers.md",
     "Code/Go/Go.md",
+    "Drawing/Drawabox.com/Lesson 0.md",
+    "Drawing/Drawabox.com",
+    "Drawing/D.md",
+    "Code/Pointers.md",
     "Code/Python/Python.md",
     "Code/Python/Pep8.md",
     "Code/Python/Python Functions.md",
@@ -203,8 +206,6 @@
     "Code/Primeagen Learning New Programming Languages.md",
     "Quick Notes/Lista pra casa nova.md",
     "Music/Harmony in Context Book.md",
-    "Music/Seventh Chords (Tétrades).md",
-    "Music/Sequence (Music).md",
     "Drawing",
     "vimcheatsheetDark.png",
     "Pasted image 20240206194603.png",
@@ -219,7 +220,6 @@
     "Code/Python",
     "Projects",
     "Pasted image 20240206194341.png",
-    "Cooking/Recipes",
     "Untitled.canvas"
   ]
 }

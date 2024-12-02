@@ -1,0 +1,2 @@
+- Read and watch videos for everything
+- 
