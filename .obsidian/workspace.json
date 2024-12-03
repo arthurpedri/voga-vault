@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95ea98ed5a01a2f6",
+        "id": "db29752144c24ff0",
         "type": "tabs",
         "children": [
           {
-            "id": "e4c60035bd37f412",
+            "id": "47100481ff63957b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drawing/Drawabox.com/Lesson 0.md",
+                "file": "Drawing/Drawabox.com/DaB Exercises/DaB Ghosted Lines Exercise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 0"
+              "title": "DaB Ghosted Lines Exercise"
             }
           }
         ],
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sports/Ski Notes.md",
+                "file": "Drawing/Drawabox.com/DaB Exercises/DaB Ghosted Lines Exercise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ski Notes"
+              "title": "Backlinks for DaB Ghosted Lines Exercise"
             }
           },
           {
@@ -177,10 +177,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4c60035bd37f412",
+  "active": "3cab8c6b66cbafcc",
   "lastOpenFiles": [
+    "Drawing/Drawabox.com/DaB Lesson 1.md",
+    "Drawing/Drawabox.com/DaB Exercises/DaB Ghosted Lines Exercise.md",
+    "Drawing/Drawabox.com/DaB Exercises/DaB Superimposed Lines Exercise.md",
+    "Drawing/Sketching.md",
+    "Drawing/Observation.md",
+    "Drawing/Learning to draw.md",
+    "Drawing/Drawing Roadmap.md",
+    "Drawing/Drawing Boxes.md",
+    "Code/60-30-10 Color Rule.md",
+    "colorruleex2.png",
+    "colorruleex1.png",
+    "superimposedexercise.jpg",
+    "Drawing/Drawabox.com/DaB Exercises",
+    "Drawing/Drawabox.com/DaB Lesson 0.md",
+    "Music/Voicings (Music).md",
+    "Projects/Drawabox exercise picker.md",
+    "Daily Notes/09-08-2023.md",
+    "Games/Rog Crafting League Start.md",
+    "craftofexile.com.md",
+    "Untitled.canvas",
+    "Daily Notes/02-12-2024.md",
     "Code/Go/Go.md",
-    "Drawing/Drawabox.com/Lesson 0.md",
     "Drawing/Drawabox.com",
     "Drawing/D.md",
     "Code/Pointers.md",
@@ -188,28 +208,11 @@
     "Code/Python/Pep8.md",
     "Code/Python/Python Functions.md",
     "Code/Python/Python Generators.md",
-    "Drawing/Drawing Roadmap.md",
     "Learning/Conceptual Notes.md",
     "Learning/Coding Practice Menu.md",
-    "Drawing/Observation.md",
-    "Drawing/Learning to draw.md",
     "Projects/AI CLI.md",
-    "Projects/Git Obsidian Markdown project.md",
-    "Drawing/Sketching.md",
-    "Music/Chord Functions.md",
-    "Music/Tonal Levels.md",
-    "Music/Suspended Chords.md",
-    "Music/Roman numeral analysis (Music).md",
-    "Drawing/Drawing Boxes.md",
-    "Games/Rog Crafting League Start.md",
-    "Games/Future PoE Sounds.md",
-    "Code/Primeagen Learning New Programming Languages.md",
-    "Quick Notes/Lista pra casa nova.md",
-    "Music/Harmony in Context Book.md",
     "Drawing",
     "vimcheatsheetDark.png",
-    "Pasted image 20240206194603.png",
-    "Pasted image 20240206194432.png",
     "Code/Go",
     "Code/vimcheatsheetDark.png",
     "Music",
@@ -218,8 +221,6 @@
     "Code/JS",
     "Code/Rust",
     "Code/Python",
-    "Projects",
-    "Pasted image 20240206194341.png",
-    "Untitled.canvas"
+    "Pasted image 20240206194341.png"
   ]
 }

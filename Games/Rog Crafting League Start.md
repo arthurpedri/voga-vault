@@ -16,5 +16,5 @@
 - Boots need 2 prefixes in life and movement speed, so they can be annoying but very profitable.
 - Rings also prefer 2 prefixes and 3 suffixes, as we can craft less total mana cost, which is in high demand on league start.
 - Weapons prefer 3 prefixes and 2 suffixes, to craft attack speed or critical chance.
-- When the side is decided, ==reject removing or adding affixes that are already at the correct number==, and choose options to reroll instead.
-- When reroll modifier numbers is offered the craft is almost over.
+- When the side is decided, ==reject removing or adding affixes that are already at the correct number==, and choose options to re roll instead.
+- When re roll modifier numbers is offered the craft is almost over.

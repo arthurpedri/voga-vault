@@ -13,7 +13,7 @@
 ## Examples:
 
 - Grey neutral, white primary, green secondary
-![[Pasted image 20240206194432.png|900]]
+![[colorruleex1.png|900]]
 
 - White neutral, dark blue primary, teal secondary
-![[Pasted image 20240206194603.png| 400]]
+![[colorruleex2.png| 400]]
