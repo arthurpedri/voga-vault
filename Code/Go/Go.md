@@ -197,7 +197,7 @@ Rules of thumb for clean, small and reusable packages.
 #### Packages shouldn't know about dependents
 - A package should never have specific knowledge about a particular application that uses it
 ## Modules
-A mule is a collection of Go packages that are released together
+A module is a collection of Go packages that are released together
 ### One module per repo (usually)
 A file named `go.mod` at the root of a project declares the module. It contains:
 - The module path
