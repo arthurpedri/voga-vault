@@ -11,6 +11,7 @@
 - Good posture and engage the whole arm
 ### Ghosting
 - Move the pen in the motion required without touching the page
+    - Touching the hand on the page is normal
 - Focus on getting comfortable and familiar with the motion
 - The amount of repetitions will become apparent with experience
 # Execution
