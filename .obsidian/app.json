@@ -5,5 +5,6 @@
   "newFileFolderPath": "Uncategorized",
   "useTab": false,
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "attachmentFolderPath": "attachments"
 }

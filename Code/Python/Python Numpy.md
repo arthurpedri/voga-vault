@@ -7,24 +7,36 @@ import numpy as np
 ## Populate arrays with specific numbers
 Call `np.array` to create a NumPy array with your own hand-picked values. For example, the following call to `np.array` creates an 8-element array:
 ```python
+one_dimensional_array = np.array([1.2, 2.4, 3.5, 4.7, 6.1, 7.2, 8.3, 9.5])
+```
+- You can also use `np.array` to create a two-dimensional array. To create a two-dimensional array specify an extra layer of square brackets. For example, the following call creates a 3x2 array:
+```python
+two_dimensional_array = np.array([[6, 5], [11, 7], [4, 8]])
+```
+- To populate an array with all zeroes, call `np.zeros`. To populate an array with all ones, call `np.ones`.
+
+## Populate arrays with sequences of numbers
+
+You can populate an array with a sequence of numbers:
+```python
 sequence_of_integers = np.arange(5, 12)
 ```
 - Notice that `np.arange` generates a sequence that includes the lower bound (5) but not the upper bound (12).
 ## Populate arrays with random numbers
 
-NumPy provides various functions to populate arrays with random numbers across certain ranges. For example, `np.random.randint` generates random integers between a low and high value. The following call populates a 6-element array with random integers between 50 and 100.
+`np.random.randint` generates random integers between a low and high value. The following call populates a 6-element array with random integers between 50 and 100.
 ```python
 random_integers_between_50_and_100 = np.random.randint(low=50, high=101, size=(6,))
 ```
-Note that the highest generated integer `np.random.randint` is one less than the `high` argument.
+- Note that the highest generated integer `np.random.randint` is one less than the `high` argument.
 
-To create random floating-point values between 0.0 and 1.0, call `np.random.random`. For example:
+- To create random floating-point values between 0.0 and 1.0, call `np.random.random`. For example:
 ```python
 random_floats_between_0_and_1 = np.random.random((6,))
 ```
 ## Mathematical Operations on NumPy Operands
-
-If you want to add or subtract two arrays, linear algebra requires that the two operands have the same dimensions. Furthermore, if you want to multiply two arrays, linear algebra imposes strict rules on the dimensional compatibility of operands. Fortunately, NumPy uses a trick called [**broadcasting**](https://developers.google.com/machine-learning/glossary/#broadcasting) to virtually expand the smaller operand to dimensions compatible for linear algebra. For example, the following operation uses broadcasting to add 2.0 to the value of every item in the array created in the previous code cell:
+- If you want to add or subtract two arrays, linear algebra requires that the two operands have the same dimensions. Furthermore, if you want to multiply two arrays, linear algebra imposes strict rules on the dimensional compatibility of operands. 
+- NumPy uses a trick called [**broadcasting**](https://developers.google.com/machine-learning/glossary/#broadcasting) to virtually expand the smaller operand to dimensions compatible for linear algebra. For example, the following operation uses broadcasting to add 2.0 to the value of every item in the array created in the previous code cell:
 ```python
 random_floats_between_2_and_3 = random_floats_between_0_and_1 + 2.0
 ```
