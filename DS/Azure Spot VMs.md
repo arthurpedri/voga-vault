@@ -1,0 +1,1 @@
+Azure spot VMs make deeply discounted vms that can afford to be interrupted
