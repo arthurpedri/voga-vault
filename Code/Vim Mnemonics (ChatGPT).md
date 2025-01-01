@@ -88,8 +88,11 @@
 ### Jumps and Marks
 
 - **`m` + letter**: Set a **m**ark (e.g., `ma` sets mark "a")
+    - Capital letter sets global marks
 - **`` ` `` + letter**: Jump to a specific mark (e.g., `` `a `` jumps to mark "a")
+- **`` ' `` + letter**: Jump to line of specific mark (e.g., `` 'a `` jumps to mark "a")
 - **`` ` ``**: Go back to the last cursor position (great for quickly undoing movements)
+- **`` ' ``**: Go back to the last line (great for quickly undoing movements)
 
 ### Folding (Code/Document Structure)
 
