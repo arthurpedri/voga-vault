@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Tmux.md",
+                "file": "Code/Algorithm Patterns (Leetcode).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tmux"
+              "title": "Algorithm Patterns (Leetcode)"
             }
           }
         ],
@@ -180,9 +180,13 @@
   },
   "active": "08c9e9255ff16a38",
   "lastOpenFiles": [
+    "Code/Code Optimization.md",
+    "Code/Creating an interesting project for interviews.md",
+    "Projects/Webapp for detecting chord progressions.md",
+    "Projects/Drawabox exercise picker.md",
+    "Music/Roman numeral analysis (Music).md",
     "Code/Nvim Configs.md",
     "Code/Tmux.md",
-    "Code/Creating an interesting project for interviews.md",
     "Code/Topological Sort.md",
     "Code/VS Code Tips.md",
     "Code/Vim Motions.md",
@@ -191,7 +195,6 @@
     "Projects/Issue Tracker project.md",
     "Projects/Git Obsidian Markdown project.md",
     "Projects/Generate narrations.md",
-    "Projects/Drawabox exercise picker.md",
     "Projects/AI CLI.md",
     "Code/Memoization.md",
     "Code/Method (or Function) Overloading.md",
@@ -200,12 +203,9 @@
     "Code/Git README.md",
     "Code/Git.md",
     "Code/Primeagen Learning New Programming Languages.md",
-    "Code/Code Optimization.md",
     "Code/Go/Go.md",
     "Code/Python/Python Classes.md",
     "Code/Python/Python Exceptions.md",
-    "Code/Python/Python Functions.md",
-    "Code/Python/Python Generators.md",
     "attachments/funnelsexercise.jpg",
     "attachments/gradientdescentconverging.png",
     "attachments/Pasted image 20241217221518.png",
