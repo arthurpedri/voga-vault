@@ -1,0 +1,3 @@
+- Dev is agile, but Ops is waterfall
+- Bridging the difference is essential
+- Automating tasks is also essential
