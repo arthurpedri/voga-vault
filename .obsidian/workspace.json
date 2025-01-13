@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/DevOps/Linux Basics.md",
+                "file": "Code/DevOps/Software Development Life Cycle.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Basics"
+              "title": "Software Development Life Cycle"
             }
           }
         ],
@@ -180,9 +180,14 @@
   },
   "active": "08c9e9255ff16a38",
   "lastOpenFiles": [
-    "Code/Tmux.md",
-    "Code/DevOps/Linux Basics.md",
     "Code/DevOps/Popular Server Linux Distros.md",
+    "Code/DevOps/Linux IO Redirection.md",
+    "Code/DevOps/Linux Filters.md",
+    "Code/DevOps/Linux Commands.md",
+    "Code/DevOps/Linux Basics.md",
+    "Music/Hearing note intervals.md",
+    "Music/Training for inversions.md",
+    "Code/Tmux.md",
     "Code/DevOps/AWS.md",
     "Code/DevOps/DevOps Udemy Course.md",
     "Code/DevOps/Continuous Delivery.md",
@@ -204,11 +209,6 @@
     "Quick Notes/Standing desks.md",
     "Quick Notes/Social media face tracker.md",
     "Quick Notes/Split Keyboard Resources.md",
-    "Code/Function signatures.md",
-    "Code/File Checksum.md",
-    "Code/Enumerated type.md",
-    "Code/Encapsulation.md",
-    "Code/CSS.md",
     "attachments/funnelsexercise.jpg",
     "attachments/gradientdescentconverging.png",
     "attachments/Pasted image 20241217221518.png",

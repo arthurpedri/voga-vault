@@ -18,17 +18,7 @@
 - Server Data: `/var, /srv`
 - System Information: `/proc, /sys`
 - Shared Libraries: `/lib, /usr/lib, /usr/local/lib`
-
-# Commands
-- Range in command `touch file{1..10}.txt` creates 10 files from `file1.txt` to `file10.txt`
-- `ln -s` soft link
-- `ls`
-    - `-t` sort by time
-    - `-r` reverse sort order
-    - `-l` long
-    - `-h` human readable
-- `file` check file type
-# File Types
+## File types
 File types are the first character in `ls -l`
 - `-` means a normal file, could be a executable file too
 - `d` directory
@@ -37,18 +27,9 @@ File types are the first character in `ls -l`
 - `l` link
 - `s` socket
 - `p` pipes
-# Filters
-## Grep
-Search for text
-- `-i` ignore case
-- `-r/-R` recursive / dereference recursive
-- `-v` invert match
-## More/less/head/tail
-- `tail -f` (follow) keeps file open and shows changes made, useful for logs
-## Cut
-- `cut --delimiter "," --fields 1` (`cut -d, -f1`)
-## Awk
-- `awk '{s+=$1} END {print s}' path/to/file`
-## Sed
-- `sed 's/apple/mango/g'`
-    - `-i` edit in place
+
+
+
+[[Linux Commands]]
+[[Linux Filters]]
+[[Linux IO Redirection]]

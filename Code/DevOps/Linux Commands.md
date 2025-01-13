@@ -1,0 +1,14 @@
+# Commands
+- Range in command `touch file{1..10}.txt` creates 10 files from `file1.txt` to `file10.txt`
+- `ln -s` soft link
+- `ls`
+    - `-t` sort by time
+    - `-r` reverse sort order
+    - `-l` long
+    - `-h` human readable
+- `file` check file type
+- `df` overview of filesystem disk space usage
+- `wc` counts lines, words and bytes
+- `find` finds file or directory
+- `locate` fast find, using a database that is updated on a schedule. To use as a real time search the database has to be updated first to ensure correctness
+- `history` command history

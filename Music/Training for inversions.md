@@ -1,4 +1,4 @@
-- Training finger position on chord progressions
+ Training finger position on chord progressions
 ## Moving fingers more naturally
 - These transitions are also useful for moving from inversions to roots or other inversion, the process will be similar, but the main movements are bellow
 ### Moving a 4th and 5th from root
