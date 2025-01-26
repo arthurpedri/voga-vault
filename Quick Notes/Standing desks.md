@@ -1,2 +1,0 @@
-- Consider Pneumatic (Ar comprimido)
-- 4 legs for more stability

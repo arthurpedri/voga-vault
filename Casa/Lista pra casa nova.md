@@ -1,6 +1,4 @@
 - Desentupidor de vaso
 - Tupperware/Containers de comida retangulares, não circulares
-- Mesa PC 180x60cm nope
 - Geladeira 185x73cm(Profundidade +- 60cm)
-    - 1cm extra altura e profundidade
 - Microondas 50cm Width x 31cm Height x (40cm +- Depth) 

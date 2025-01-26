@@ -1,0 +1,3 @@
+https://www.reddit.com/r/devops/comments/1i7rgeo/project_idea_for_resume/
+
+Even if no one looks at your repo it'll be a good topic of conversation for interviews. As an idea for an app, try something you'd find useful. Todo app for example. Make a whole ci/cd system for it with unit and integration testing. Create some exercises to go through like change things that require doing a database migration and automate everything.

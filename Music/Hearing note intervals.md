@@ -1,4 +1,4 @@
-- `musictheory.net` has great exercises
+- [musictheory.net](https://www.musictheory.net/exercises/ear-interval) has great exercises
 ## Perfect fourth
 - Hino nacional
 ## Perfect fifth
