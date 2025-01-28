@@ -1,0 +1,12 @@
+## Reddit comment
+I am a tech lead at my company (one of the most iconic brands in the world) and I interview and train SREs (devops-adjacent). I'm in the US, so I can't speak to the market in the UK, but here's my advice from my position as someone who was at one time in your position and now screens others in your position:
+
+First- yes, go get certs. They lend credibility where experience is lacking.
+
+Second- fill the gap of professional knowledge with practical knowledge. ie. When studying for the cert exams, ask yourself, "how would this tech have been used at my previous job? What situations might I have been in if this were used?" Being able to describe a technology in your own words, with your own opinions (feel free to not like something), it shows you have a critical mind beyond your resume.
+
+Third- take any time you have to study or work on a project at home. Pick up K8S on raspberry pi, or some other fun project that can be used at home. This will make it easier and more fun to absorb new knowledge. It also looks awesome on a resume. If you can chat me up about a tech you love, it goes a long way and keeps me from having to ask stupid pop quiz questions like "what is an inode?"
+
+Fourth (optional but advised) - try to find something new that isn't on the job descriptions. Every resume I look at will have some experience with Terraform, Kubernetes, and some config management like Ansible. However, show me you know a programming language or something else that is uncommon (eg. machine learning, data streams, kernel knowledge, networking knowledge) and I'm gonna find you a spot on the team to handle that for us. Your value will skyrocket if you know something the rest of the team doesn't know well. That will be hard to guess based on who you're interviewing for, but if you find the right company, it will pay off in spades for you.
+
+Lastly - when I'm hiring, I hire for initiative and curiosity first. There's no way you have the relevant experience to make an impact on my team right out the gate. I don't care if you wrote the source code for the tech we use. You will have to onboard and get up to speed on how we do things. How willing and how capable you are of doing that is going to make my life, my team's life, and your life a lot easier.
