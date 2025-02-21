@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/DevOps/DevOps CV.md",
+                "file": "Learning/Korean in 12 months.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DevOps CV"
+              "title": "Korean in 12 months"
             }
           }
         ],
@@ -42,7 +42,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -180,8 +181,15 @@
   },
   "active": "08c9e9255ff16a38",
   "lastOpenFiles": [
-    "IT/Cybersecurity/Things to study in bugbounty.md",
+    "Music/Piano Shortcuts ydp165.md",
+    "Learning/Korean in 12 months.md",
+    "Untitled",
+    "IT/DevOps/Cloud Engineer Roadmap.md",
+    "IT/DevOps/100daysofdevops.md",
+    "IT/DevOps/DevOps Portfolio ideas.md",
+    "IT/DevOps/DevOps Udemy Course.md",
     "IT/DevOps/DevOps CV.md",
+    "IT/Cybersecurity/Things to study in bugbounty.md",
     "IT/DevOps/Linux Commands.md",
     "IT/Cybersecurity",
     "IT/Cybersecur.md",
@@ -194,20 +202,14 @@
     "IT/DS/Bias-variance tradeoff.md",
     "IT/DS/Azure Spot VMs.md",
     "IT/DevOps/AWS.md",
-    "IT/DevOps/100daysofdevops.md",
     "Casa/Ferramentas.md",
     "Casa/Lista pra casa nova.md",
     "Casa/Eletrodomésticos.md",
-    "IT/DevOps/DevOps Portfolio ideas.md",
     "IT/CompTIA/Prompt for studying.md",
     "IT/CompTIA",
     "IT/Tmux.md",
     "IT/Terminal tools to learn.md",
     "IT/Sets.md",
-    "IT/Resource Managers.md",
-    "IT/Regex.md",
-    "IT/Algorithm Patterns (Leetcode).md",
-    "IT/60-30-10 Color Rule.md",
     "Casa",
     "Code/Linux",
     "IT/Bash",
@@ -225,7 +227,6 @@
     "attachments/ghostedplanesexercise.jpg",
     "attachments/ghostedlinesexercise.jpg",
     "Drawing/Drawabox.com/DaB Exercises",
-    "Untitled.canvas",
-    "Drawing/Drawabox.com"
+    "Untitled.canvas"
   ]
 }
