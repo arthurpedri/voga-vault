@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Music/Reaper DAW.md",
+                "file": "Exercise/Flexibility through strength.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Reaper DAW"
+              "title": "Flexibility through strength"
             }
           }
         ],
@@ -182,6 +182,9 @@
   },
   "active": "f41899893030049f",
   "lastOpenFiles": [
+    "Music/Reaper DAW.md",
+    "Exercise/Flexibility through strength.md",
+    "Exercise",
     "Music/Jazz Infinite Progression.md",
     "IT/Go/Go.md",
     "IT/Vim Motions.md",
@@ -198,7 +201,6 @@
     "IT/C Sharp/C Sharp.md",
     "IT/Projects/Webapp for detecting chord progressions.md",
     "IT/Projects/Possible Projects.md",
-    "Music/Reaper DAW.md",
     "IT/C Sharp/DotNet.md",
     "IT/DevOps/DevOps CV.md",
     "IT/DevOps/Dev vs Ops.md",
@@ -208,7 +210,6 @@
     "IT/DevOps/AWS.md",
     "IT/DevOps/100daysofdevops.md",
     "IT/CompTIA/Prompt for studying.md",
-    "IT/Cybersecurity/Things to study in bugbounty.md",
     "Chess",
     "IT/Cybersecurity",
     "IT/CompTIA",
@@ -224,7 +225,6 @@
     "Code/vimcheatsheetDark.png",
     "attachments/featuresandlabel.png",
     "attachments",
-    "IT/DS",
     "attachments/ellipsesinplanesexercise.jpg",
     "attachments/ghostedplanesexercise.jpg",
     "attachments/ghostedlinesexercise.jpg",
