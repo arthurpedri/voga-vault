@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercise/Flexibility through strength.md",
+                "file": "IT/Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Flexibility through strength"
+              "title": "Docker"
             }
           }
         ],
@@ -182,8 +182,14 @@
   },
   "active": "f41899893030049f",
   "lastOpenFiles": [
-    "Music/Reaper DAW.md",
+    "IT/Docker Commands.md",
+    "IT/Docker.md",
+    "IT/DS/Correlation matrix.md",
+    "IT/DE",
+    "IT/DS/Bias-variance tradeoff.md",
+    "IT/DS/Azure Spot VMs.md",
     "Exercise/Flexibility through strength.md",
+    "Music/Reaper DAW.md",
     "Exercise",
     "Music/Jazz Infinite Progression.md",
     "IT/Go/Go.md",
@@ -197,7 +203,6 @@
     "Writing/Exercises to start writing.md",
     "index.md",
     "Writing",
-    "IT/Untitled.md",
     "IT/C Sharp/C Sharp.md",
     "IT/Projects/Webapp for detecting chord progressions.md",
     "IT/Projects/Possible Projects.md",
@@ -206,10 +211,6 @@
     "IT/DevOps/Dev vs Ops.md",
     "IT/DevOps/Continuous Integration.md",
     "IT/DevOps/Continuous Delivery.md",
-    "IT/DevOps/Cloud Engineer Roadmap.md",
-    "IT/DevOps/AWS.md",
-    "IT/DevOps/100daysofdevops.md",
-    "IT/CompTIA/Prompt for studying.md",
     "Chess",
     "IT/Cybersecurity",
     "IT/CompTIA",
@@ -224,7 +225,6 @@
     "attachments/tableofellipsesexercise.jpg",
     "Code/vimcheatsheetDark.png",
     "attachments/featuresandlabel.png",
-    "attachments",
     "attachments/ellipsesinplanesexercise.jpg",
     "attachments/ghostedplanesexercise.jpg",
     "attachments/ghostedlinesexercise.jpg",
