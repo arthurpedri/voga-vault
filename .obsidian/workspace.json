@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Docker Commands.md",
+                "file": "IT/SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Docker Commands"
+              "title": "SQL"
             }
           }
         ],
@@ -182,8 +182,10 @@
   },
   "active": "f41899893030049f",
   "lastOpenFiles": [
-    "IT/Docker.md",
+    "IT/SOLID.md",
+    "IT/SQL.md",
     "IT/Docker Commands.md",
+    "IT/Docker.md",
     "IT/DS/Correlation matrix.md",
     "IT/DE",
     "IT/DS/Bias-variance tradeoff.md",
@@ -209,8 +211,6 @@
     "IT/C Sharp/DotNet.md",
     "IT/DevOps/DevOps CV.md",
     "IT/DevOps/Dev vs Ops.md",
-    "IT/DevOps/Continuous Integration.md",
-    "IT/DevOps/Continuous Delivery.md",
     "Chess",
     "IT/Cybersecurity",
     "IT/CompTIA",
