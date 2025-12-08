@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Cloud DE/DevOps/Continuous Integration.md",
+                "file": "IT/DE/DE Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Continuous Integration"
+              "title": "DE Prompt"
             }
           }
         ],
@@ -180,23 +180,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cab8c6b66cbafcc",
+  "active": "f41899893030049f",
   "lastOpenFiles": [
+    "IT/SQL.md",
+    "IT/DE/DE Prompt.md",
+    "IT/DE",
+    "IT/Cloud DE/Cloud DE Prompt Roadmap.md",
+    "IT/Cloud DE/Cloud DE Prompt Portfolio.md",
+    "IT/Cloud DE/DevOps/Continuous Integration.md",
     "IT/Cloud DE/Linux Basics.md",
     "IT/Cloud DE/Linux IO Redirection.md",
     "IT/Cloud DE/Linux Filters.md",
     "IT/Cloud DE/Popular Server Linux Distros.md",
     "IT/Cloud DE/DevOps/Software Development Life Cycle.md",
     "IT/Cloud DE/DevOps/Dev vs Ops.md",
-    "IT/Cloud DE/DevOps/Continuous Integration.md",
     "IT/Cloud DE/Cloud Engineer Roadmap.md",
     "IT/Cloud DE/DevOps",
     "IT/Cloud DE/DevOps/DevOps CV.md",
-    "IT/Cloud DE/Cloud DE Prompt Roadmap.md",
-    "IT/Cloud DE/Cloud DE Prompt Portfolio.md",
     "IT/Docker Commands.md",
     "IT/Docker.md",
-    "IT/SQL.md",
     "IT/Memoization.md",
     "IT/Python/Python Virtual Environments.md",
     "IT/SOLID.md",
@@ -210,14 +212,12 @@
     "Music/Jazz Infinite Progression.md",
     "IT/Go/Go.md",
     "IT/Vim Motions.md",
-    "IT/Vim Mnemonics (ChatGPT).md",
     "Writing",
     "Chess",
     "IT/Cybersecurity",
     "IT/CompTIA",
     "Casa",
     "Code/Linux",
-    "IT/Bash",
     "attachments/funnelsexercise.jpg",
     "attachments/gradientdescentconverging.png",
     "attachments/Pasted image 20241217221518.png",
