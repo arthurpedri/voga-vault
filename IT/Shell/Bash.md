@@ -21,3 +21,45 @@ variablename="value"
 ln -s target_path link_path
 ```
 - `-s` creates a symbolic link
+
+## Grep
+```bash
+grep "hello" words.txt
+grep -r "hello" .
+```
+
+## Find
+```bash
+find directory -name "*arthur*.txt"
+```
+
+## Permissions
+### Chmod
+```bash
+chmod -R u=rwx,g=,o= directory
+chmod u+x file
+chmod -x file
+chmod g-rw file
+```
+### Chown
+```bash
+sudo chown -R root directory
+```
+
+## Shebang
+```bash
+#! interpreter [optional-arg]
+#!/usr/bin/python3
+```
+
+## Environment Variable
+```bash
+env
+export NAME="Arthur"
+echo $NAME
+```
+
+### Path
+```bash
+export PATH="$PATH:/path/to/new/location"
+```
