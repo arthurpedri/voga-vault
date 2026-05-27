@@ -1,0 +1,4 @@
+- Bundling of data with the mechanisms or methods that operate on that data.
+- Limiting direct access to some of that data, such as object components.
+- Simplest example is a **function**
+- 
