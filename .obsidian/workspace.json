@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Algorithms/Quick Sort.md",
+                "file": "IT/Algorithms/Merge Sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quick Sort"
+              "title": "Merge Sort"
             }
           }
         ],
@@ -182,10 +182,13 @@
   },
   "active": "f41899893030049f",
   "lastOpenFiles": [
+    "IT/Algorithms/Bubble sort.md",
+    "IT/Algorithms/Merge Sort.md",
+    "IT/Algorithms/Binary Search.md",
+    "IT/Algorithms/Quick Sort.md",
     "IT/Concepts/Hexadecimal.md",
     "Math/Logarithms.md",
     "IT/Algorithms/Topological Sort.md",
-    "IT/Algorithms/Quick Sort.md",
     "IT/Algorithms/Algorithm Patterns (Leetcode).md",
     "IT/Concepts/Inheritance.md",
     "IT/Rust/Rust Primitives.md",
@@ -205,9 +208,6 @@
     "IT/Go/Go Concurrency.md",
     "IT/DE/Backend API + DE Prompt.md",
     "IT/Cybersecurity/Things to study in bugbounty.md",
-    "IT/Cloud DE/Cloud DE Prompt Portfolio.md",
-    "IT/Cloud DE/AWS.md",
-    "IT/Cloud DE/Popular Server Linux Distros.md",
     "IT/SQL",
     "IT/Cheatsheets",
     "IT/Algorithms",
