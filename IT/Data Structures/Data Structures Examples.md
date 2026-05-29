@@ -1,0 +1,8 @@
+- **Stacks**: Last in, first out.
+- **Queues**: First in, first out.
+- **Linked Lists**: A chain of nodes, efficient for inserts and deletes.
+- **Binary Trees**: A tree where each node has up to two children.
+- **Red Black Trees**: A self-balancing binary tree using colors.
+- **Hashmaps**: A data structure that maps keys to values.
+- **Tries**: A tree used for storing and searching words efficiently.
+- **Graphs**: A collection of nodes connected by edges.

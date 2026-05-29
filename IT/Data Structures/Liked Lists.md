@@ -1,0 +1,1 @@
+A linked list is where elements are _not_ stored next to each other in memory, instead, each item _references_ the next in a chain

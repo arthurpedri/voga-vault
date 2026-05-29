@@ -94,4 +94,3 @@ set([1, 2, 2, 3]) # Will create a set based on the list (removing duplicates)
 
 ## [[Python Iterables|Iterables]]
 
-## [[Python Generators|Generators]]

@@ -1,0 +1,3 @@
+A generator is similar to a function that return an array, however, instead of building an array containing all the values and returning them a once, a generator _yields_ the values one at a time
+- Yield is similar to return, but will keep the state of the function until it is called again, and will continue from where it left.
+    - Needs to iterate over the same generator instance to continue where it left
