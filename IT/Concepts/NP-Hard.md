@@ -1,0 +1,2 @@
+All `NP-complete` problems are NP-hard, but not all `NP-hard` problems are `NP-complete`. The determining factor between `NP-complete` and `NP-hard` is that _not all_ `NP-hard` problems are in `NP`.
+- NP-hard problems do not need to be verifiable in polynomial time
