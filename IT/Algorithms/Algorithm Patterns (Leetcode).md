@@ -8,3 +8,8 @@
 7. Topological Sort
 8. 2 Pointers
 9. Djikstra
+
+### Prints
+- `fmt.Print`
+- `fmt.Printf`: with formatting (`%v, %d, %.2f`)
+- `fmt.Println`

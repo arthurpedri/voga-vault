@@ -1,16 +1,15 @@
-### Prints
-- `fmt.Print`
-- `fmt.Printf`: with formatting (`%v, %d, %.2f`)
-- `fmt.Println`
-
+[[Go IO]]
+[[Go Variables]]
 [[Go Runes]]
-### Errors
-#### Inline errors
-```go 
-import "errors"
-return errors.New("Error Name")
-```
+[[Go Errors]]
+## Comments
+```go
+// This is a single line comment
 
+/*
+  This is a multi-line comment
+*/
+```
 ### Slices
 - `array[inclusive:exclusive]` or `array[:]` or `qrray[2:]`, etc..
 - Slices hold references to an underlying array, and if you assign one slice to another, both refer to the **same** array

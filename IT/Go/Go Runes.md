@@ -1,5 +1,6 @@
 ### Runes
 - 32-bit integer values that represent ==Unicode code points==
+- `alias` for `int32`
 - Similar to a *character* in C or any other language
 - Runes are bigger than characters from other languages, they were made to represent many different types of characters, not just those in the alphabet
 - The way indexing and len() work on runes are in line with runes (or int32) and not on bytes, like how `string`s work
