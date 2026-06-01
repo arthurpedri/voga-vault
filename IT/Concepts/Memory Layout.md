@@ -1,0 +1,1 @@
+Making structs with larger fields first will, in general, reduce the amount of padding and wasted space when allocating a contiguous struct.

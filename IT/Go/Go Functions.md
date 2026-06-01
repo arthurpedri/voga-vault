@@ -77,3 +77,77 @@ func aggregate(a, b, c int, arithmetic func(int, int) int) int {
   return secondResult
 }
 ```
+# Anonymous Functions
+Anonymous functions are true to form in that they have _no name_. They're useful when defining a function that will only be used once or to create a quick [[Closure|closure]].
+Let's say we have a function `conversions` that accepts another function, `converter` as input:
+```go
+// using a named function
+	newX, newY, newZ := conversions(double, 1, 2, 3)
+	// newX is 2, newY is 4, newZ is 6
+
+    // using an anonymous function
+	newX, newY, newZ = conversions(func(a int) int {
+	    return a + a
+	}, 1, 2, 3)
+```
+# Defer
+The `defer` keyword is a fairly unique feature of Go. It allows a function to be executed automatically _just before_ its enclosing function returns. The deferred call's arguments are evaluated immediately, but the function call is not executed until the surrounding function returns.
+
+Deferred functions are typically used to clean up resources that are no longer being used. Often to close database connections, file handlers and the like.
+```go
+func GetUsername(dstName, srcName string) (username string, err error) {
+	// Open a connection to a database
+	conn, _ := db.Open(srcName)
+
+	// Close the connection *anywhere* the GetUsername function returns
+	defer conn.Close()
+```
+It's called:
+```go
+// here
+return "", err
+// or here
+return username, nil
+```
+## Multiple Defers
+The location of a `defer` statement inside a function matters. The deferred call is registered at the point where `defer` is executed, and it will run when the function returns. If you have multiple `defer` statements in a single function, they are executed in **last-in, first-out** order (the last deferred call runs first).
+
+For example, you'd want to close a file before trying to remove it:
+```go
+func CreateTempFile() {
+	f, _ := os.Create("temp-42.txt")
+	defer os.Remove(f.Name()) // executed second
+	defer f.Close()           // executed first
+
+	fmt.Fprintln(f, "How many roads must a man walk down?")
+}
+```
+# Block Scope
+Unlike Python, Go is _not_ function-scoped, it's [block-scoped](https://go.dev/ref/spec#Declarations_and_scope). Variables declared inside a block are only accessible within that block (and its nested blocks). There's also the package scope. We'll talk about packages later, but for now, you can think of it as the outermost, nearly global scope.
+
+Blocks are defined by curly braces `{}`. New blocks are created for:
+
+- Functions
+- Loops
+- If statements
+- Switch statements
+- Select statements
+- Explicit blocks
+```go
+package main
+
+import "fmt"
+
+func main() {
+    {
+        // explicit block
+        age := 19
+        // this is okay
+        fmt.Println(age)
+    }
+
+    // this is not okay
+    // the age variable is out of scope
+    fmt.Println(age)
+}
+```

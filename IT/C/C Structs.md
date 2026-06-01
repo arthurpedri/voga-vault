@@ -57,7 +57,7 @@ struct City c;
 c.lat = 41; // Set the latitude
 printf("Latitude: %d", c.lat); // Print the latitude
 ```
-### Struct Padding
+### Struct Padding ([[Memory Layout]])
 Oversimplified:
 1. The fields of a struct are laid out in memory contiguously (next to each other).
 2. Structs can vary in size depending on how they are laid out.

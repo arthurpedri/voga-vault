@@ -12,7 +12,7 @@
 ```
 
 [[Go Slices]]
-
+[[Go Structs]]
 [[Go Functions]]
 [[Go Conditionals]]
 [[Go Loops]]
