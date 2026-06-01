@@ -1,0 +1,79 @@
+```go
+func sub(x int, y int) int {
+    return x-y
+}
+
+func addToDatabase(hp, damage int) {
+  // Parameters of the same type next to each other only needs to be declared once after the last argument
+}
+```
+## Passing Variables by Value
+Variables in Go are passed by value (except for a few data types). "Pass by value" means that when a variable is passed into a function, that function receives a _copy_ of the variable. The function is unable to mutate the caller's original data.
+```go
+func main() {
+    x := 5
+    increment(x)
+
+    fmt.Println(x)
+    // still prints 5,
+    // because the increment function
+    // received a copy of x
+}
+```
+## Ignoring Return Values
+A function can return a value that the caller doesn't care about. We can explicitly ignore variables by using an underscore, or more precisely, the [blank identifier `_`](https://go.dev/doc/effective_go#blank).
+```go
+func getPoint() (x int, y int) {
+    return 3, 4
+}
+
+// ignore y value
+x, _ := getPoint()
+```
+# Named Return Values
+Return values may be given names, and if they are, then they are treated the same as if they were new variables defined at the top of the function.
+- Named return values are best thought of as a way to document the purpose of the returned values.
+According to the [tour of go](https://tour.golang.org/):
+> A return statement without arguments returns the named return values. This is known as a "naked" return. Naked return statements should be used only in short functions. They can harm readability in longer functions.
+
+Named return values are what enable naked returns. Use naked returns only in short functions where the purpose of the returned values is obvious.
+```go
+func getCoords() (x, y int) {
+	// x and y are initialized with zero values
+
+	return // automatically returns x and y
+}
+```
+## Good for Documentation (Understanding)
+- Named return parameters are great for documenting a function. We know what the function is returning directly from its signature, no need for a comment.
+- Named return parameters are particularly important in longer functions with many return values.
+```go
+func calculator(a, b int) (mul, div int, err error) {
+    if b == 0 {
+      return 0, 0, errors.New("can't divide by zero")
+    }
+    mul = a * b
+    div = a / b
+    return mul, div, nil
+}
+```
+- ==If there are multiple return statements in a function, you don't need to write all the return values each time, though you _probably_ should.==
+## Functions As Values (First-Class Functions)
+Go supports [first-class](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) and higher-order functions. Functions are just another type -- like `int`s and `string`s and `bool`s.
+```go
+func add(x, y int) int {
+	return x + y
+}
+
+func mul(x, y int) int {
+	return x * y
+}
+```
+We can create a new `aggregate` function that accepts a function as its 4th argument:
+```go
+func aggregate(a, b, c int, arithmetic func(int, int) int) int {
+  firstResult := arithmetic(a, b)
+  secondResult := arithmetic(firstResult, c)
+  return secondResult
+}
+```
