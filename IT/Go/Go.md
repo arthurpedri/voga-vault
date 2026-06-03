@@ -13,6 +13,7 @@
 
 [[Go Slices]]
 [[Go Structs]]
+[[Go Interfaces]]
 [[Go Functions]]
 [[Go Conditionals]]
 [[Go Loops]]

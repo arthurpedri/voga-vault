@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67daade5b5ec684d",
+            "id": "ded5105fb607abda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Go/Go Structs.md",
+                "file": "IT/Go/Go Interfaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Structs"
+              "title": "Go Interfaces"
             }
           }
         ],
@@ -180,13 +180,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67daade5b5ec684d",
+  "active": "ded5105fb607abda",
   "lastOpenFiles": [
-    "IT/Concepts/Memory Layout.md",
+    "IT/Concepts/Closure.md",
+    "IT/Go/Go Interfaces.md",
+    "IT/Go/Go.md",
+    "IT/C/C.md",
     "IT/Go/Go Structs.md",
+    "IT/Concepts/Memory Layout.md",
     "IT/C/C Structs.md",
     "IT/C/C Memory Allocation.md",
-    "IT/Go/Go.md",
     "IT/Go/Go Maps.md",
     "IT/Go/Go IO.md",
     "IT/Go/Go Loops.md",
@@ -196,7 +199,6 @@
     "IT/Concepts/Function Currying.md",
     "IT/Go/Go Types.md",
     "IT/Go/Go Variables.md",
-    "IT/Concepts/Closure.md",
     "IT/Go/Go Concurrency.md",
     "IT/Go/Go Packages.md",
     "IT/Go/Go Pointers.md",
@@ -206,8 +208,6 @@
     "IT/Concepts/Garbage Collector.md",
     "IT/C/C Pointers.md",
     "IT/Concepts/Reference.md",
-    "IT/Concepts/Pointers.md",
-    "IT/Concepts/Big Endian and Little Endian.md",
     "IT/C",
     "IT/SQL",
     "IT/Cheatsheets",

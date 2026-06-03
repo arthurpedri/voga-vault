@@ -112,3 +112,14 @@ In Go, structs sit in memory in a contiguous block, with fields placed one after
 typ := reflect.TypeOf(stats{})
 fmt.Printf("Struct is %d bytes\n", typ.Size())
 ```
+## Empty Structs
+Empty structs are used in Go as a unary value.
+```go
+// anonymous empty struct type
+empty := struct{}{}
+
+// named empty struct type
+type emptyStruct struct{}
+empty := emptyStruct{}
+```
+The cool thing about empty structs is that they're the smallest possible type in Go: they take up **zero bytes of memory**.
