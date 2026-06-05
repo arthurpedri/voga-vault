@@ -42,3 +42,31 @@ interface{}
 ==Interfaces are implemented _implicitly_.==
 - A type never declares that it implements a given interface. If an interface exists and a type has the proper methods defined, then the type automatically fulfills that interface.
 - A quick way of checking whether a struct implements an interface is to declare a function that takes an interface as an argument. If the function can take the struct as an argument, then the struct implements the interface.
+## Naming Interface Parameters
+We can name interface parameters to make them more clear for later implementation, but this is optional
+## Type Assertions
+A _type assertion_ provides access to an interface value's underlying concrete value.
+```go
+func printShapeInfo(s shape) {
+	c, ok := s.(circle)
+	if ok {
+		radius := c.radius
+		fmt.Printf("s is a circle, radius: %v\n", radius)
+		return
+	}
+}
+```
+### Type Switches
+A type switch is similar to a regular switch statement, but the cases specify _types_ instead of _values_.
+```go
+func printNumericValue(num interface{}) {
+	switch v := num.(type) {
+	case int:
+		fmt.Printf("%T\n", v)
+	case string:
+		fmt.Printf("%T\n", v)
+	default:
+		fmt.Printf("%T\n", v)
+	}
+}
+```

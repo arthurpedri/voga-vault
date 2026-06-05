@@ -33,3 +33,6 @@ temperatureFloat := 88.26
 temperatureInt := int64(temperatureFloat)
 ```
 Casting a float to an integer in this way [truncates](https://techterms.com/definition/truncate) the floating point portion.
+## [[Go Interfaces#Type Assertions|Type Assertions (Interfaces)]]
+
+
