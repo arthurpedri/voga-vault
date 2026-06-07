@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Go/Go Errors.md",
+                "file": "IT/Go/Go Arrays and Slices.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Errors"
+              "title": "Go Arrays and Slices"
             }
           }
         ],
@@ -182,16 +182,19 @@
   },
   "active": "ded5105fb607abda",
   "lastOpenFiles": [
-    "IT/Go/Go IO.md",
-    "IT/Go/Go Errors.md",
-    "IT/Go/Go.md",
     "IT/Go/Go Variables.md",
+    "IT/Go/Go Arrays and Slices.md",
+    "IT/Go/Go Loops.md",
+    "IT/Go/Go Conditionals.md",
+    "IT/Go/Go.md",
+    "IT/Go/Go Types.md",
+    "IT/Go/Go Errors.md",
+    "IT/Go/Go IO.md",
     "IT/Go/Go Interfaces.md",
     "IT/Concepts/Function signatures.md",
     "IT/Concepts/Interfaces.md",
     "IT/Linux/Linux Commands.md",
     "IT/Linux/Linux Basics.md",
-    "IT/Go/Go Types.md",
     "IT/Concepts/Closure.md",
     "IT/C/C.md",
     "IT/Go/Go Structs.md",
@@ -199,14 +202,11 @@
     "IT/C/C Structs.md",
     "IT/C/C Memory Allocation.md",
     "IT/Go/Go Maps.md",
-    "IT/Go/Go Loops.md",
     "IT/Go/Go Functions.md",
-    "IT/Go/Go Conditionals.md",
     "IT/Concepts/Function Currying.md",
     "IT/Go/Go Concurrency.md",
     "IT/Go/Go Packages.md",
     "IT/Go/Go Pointers.md",
-    "IT/Go/Go Slices.md",
     "IT/Go/Go Runes.md",
     "IT/C",
     "IT/SQL",

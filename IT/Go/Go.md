@@ -11,7 +11,7 @@
 */
 ```
 
-[[Go Slices]]
+[[Go Arrays and Slices]]
 [[Go Structs]]
 [[Go Interfaces]]
 [[Go Functions]]

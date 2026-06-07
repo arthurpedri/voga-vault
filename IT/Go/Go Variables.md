@@ -19,6 +19,10 @@ mileage, company := 80276, "Toyota"
 Constants are declared with the `const` keyword. They can't use the `:=` short declaration syntax.
 ```go
 const pi = 3.14159
+const (
+	planFree = "free"
+	planPro  = "pro"
+)
 ```
 Constants can be primitive types like strings, integers, booleans and floats. They _cannot_ be more complex types like slices, maps and structs
 ## Go-Style Syntax
