@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Go/Go Arrays and Slices.md",
+                "file": "Exercise/5 Mobility Exercises.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Arrays and Slices"
+              "title": "5 Mobility Exercises"
             }
           }
         ],
@@ -182,8 +182,10 @@
   },
   "active": "ded5105fb607abda",
   "lastOpenFiles": [
-    "IT/Go/Go Variables.md",
+    "Exercise/Flexibility through strength.md",
+    "Exercise/5 Mobility Exercises.md",
     "IT/Go/Go Arrays and Slices.md",
+    "IT/Go/Go Variables.md",
     "IT/Go/Go Loops.md",
     "IT/Go/Go Conditionals.md",
     "IT/Go/Go.md",
@@ -206,8 +208,6 @@
     "IT/Concepts/Function Currying.md",
     "IT/Go/Go Concurrency.md",
     "IT/Go/Go Packages.md",
-    "IT/Go/Go Pointers.md",
-    "IT/Go/Go Runes.md",
     "IT/C",
     "IT/SQL",
     "IT/Cheatsheets",
