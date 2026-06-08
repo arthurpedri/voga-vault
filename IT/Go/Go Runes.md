@@ -23,3 +23,4 @@ character 語 starts at byte position 6
 s := "Hello, 世界" 
 firstRune := []rune(s)[0] // Convert string to rune slice and get the first rune
 ```
+Android test
