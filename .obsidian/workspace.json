@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Go/Go Maps.md",
+                "file": "IT/Go/Go Runes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Maps"
+              "title": "Go Runes"
             }
           }
         ],
@@ -182,10 +182,10 @@
   },
   "active": "ded5105fb607abda",
   "lastOpenFiles": [
+    "IT/Go/Go Maps.md",
     "IT/Go/Go IO.md",
     "IT/Go/Go Packages.md",
     "IT/Go/Go Runes.md",
-    "IT/Go/Go Maps.md",
     "IT/Go/Go Conditionals.md",
     "IT/Go/Go Loops.md",
     "IT/Go/Go.md",
