@@ -44,3 +44,66 @@ mySlice := []string{"I", "love", "go"}
 fmt.Println(cap(mySlice)) // 3
 ```
 Generally speaking, unless you're hyper-optimizing the memory usage of your program, you don't need to worry about the capacity of a slice because it will automatically grow as needed.
+## Spread Operator
+- The spread `...` operator allows us to pass a slice _into_ a [[Go Functions#Variatic|variatic]] function. The spread operator consists of three dots following the slice in the function call.
+```go 
+names := []string{"bob", "sue", "alice"}
+printStrings(names...)
+```
+## Append
+The built-in append function is used to dynamically add elements to a slice:
+```go
+func append(slice []Type, elems ...Type) []Type
+```
+If the underlying array is not large enough, `append()` will create a new underlying array and point the returned slice to it.
+
+Notice that `append()` is variadic, the following are all valid:
+```go
+slice = append(slice, oneThing)
+slice = append(slice, firstThing, secondThing)
+slice = append(slice, anotherSlice...)
+```
+The `append()` function changes the underlying array of its parameter AND returns a new slice. This means that using `append()` on anything other than itself is usually a BAD idea.
+```go
+// don't do this!
+someSlice = append(otherSlice, element)
+```
+The `append()` function only creates a new array when there isn't any capacity left.
+
+Again, to avoid bugs like this, you should ==always== use the `append` function on the same slice the result is assigned to:
+```go
+mySlice := []int{1, 2, 3}
+mySlice = append(mySlice, 4)
+```
+## Range
+Go provides syntactic sugar to iterate easily over elements of a slice:
+```go
+for INDEX, ELEMENT := range SLICE {
+}
+```
+The element is a copy of the value at that index.
+```go
+fruits := []string{"apple", "banana", "grape"}
+for i, fruit := range fruits {
+    fmt.Println(i, fruit)
+}
+// 0 apple
+// 1 banana
+// 2 grape
+```
+## Slice of Slices
+Slices can hold other slices, effectively creating a [matrix](https://en.wikipedia.org/wiki/Matrix_\(mathematics\)), or a 2D slice.
+```go
+rows := [][]int{}
+rows = append(rows, []int{1, 2, 3})
+rows = append(rows, []int{4, 5, 6})
+fmt.Println(rows)
+// [[1 2 3] [4 5 6]]
+matrix := make([][]int, rows)
+	for i := 0; i < rows; i++ {
+		matrix[i] = make([]int, cols)
+		for j := 0; j < cols; j++ {
+			matrix[i][j] = i * j
+		}
+	}
+```

@@ -5,6 +5,7 @@ if INITIAL_STATEMENT; CONDITION {
 }
 ```
 - ==The opening bracket must be on the same line as the if statement==
+## [[Go Maps#For, if optional arguments|Optional arguments]]
 ## Switch
 ```go
     switch os {

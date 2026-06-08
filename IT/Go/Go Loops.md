@@ -19,6 +19,7 @@ for INITIAL; ; AFTER {
   // do something forever
 }
 ```
+## [[Go Maps#For, if optional arguments|Optional arguments]]
 ### Foreach
 Go has a `foreach`-like syntax. It supports arrays/slices, maps and channels.
 The element is a copy of the value at that index

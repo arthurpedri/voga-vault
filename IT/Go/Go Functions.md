@@ -151,3 +151,10 @@ func main() {
     fmt.Println(age)
 }
 ```
+
+## Variatic functions
+- Variatic functions can take an arbitrary number of FINAL arguments by using the spread operator
+- A variadic function receives the variadic arguments as a [[Go Arrays and Slices#Spread Operator|slice]].
+```go
+func Println(a ...interface{}) (n int, err error) 
+```

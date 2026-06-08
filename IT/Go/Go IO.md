@@ -16,3 +16,26 @@ s := fmt.Sprintf("I am %v years old", "way too many")
 - `%f` or `%.2f`: Floats
 
 [[Go Runes]]
+
+## Strings Package
+`import "strings"`
+### Contains
+```go
+func Contains(s, substr string) bool
+```
+Contains reports whether substr is within s.
+### Fields
+```go
+func Fields(s [string]) [][string](
+```
+Fields splits the string s around each instance of one or more consecutive white space characters, as defined by [unicode.IsSpace](https://pkg.go.dev/unicode#IsSpace), returning a slice of substrings of s or an empty slice if s contains only white space. Every element of the returned slice is non-empty. Unlike [Split](https://pkg.go.dev/strings#Split), leading and trailing runs of white space characters are discarded.
+### ToLower
+```go
+func ToLower(s string) string
+```
+ToLower returns s with all Unicode letters mapped to their lower case.
+### Index
+```go
+func Index(s, substr string) int
+```
+Index returns the index of the first instance of substr in s, or -1 if substr is not present in s.
