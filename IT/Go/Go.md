@@ -19,10 +19,10 @@
 [[Go Loops]]
 
 [[Go Maps]]
-
+[[Go Environment]]
 
 
 [[Go Pointers]]
-[[Go Packages]]
+[[Go Packages and Modules]]
 
 [[Go Concurrency]]

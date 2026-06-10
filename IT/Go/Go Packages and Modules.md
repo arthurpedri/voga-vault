@@ -1,4 +1,5 @@
 ## Packages
+A package is a directory of Go code that's all compiled together. Functions, types, variables, and constants defined in one source file are visible to **all other source files within the same package (directory)**.
 - `package main` has an entrypoint at the `main()` function
 - A `main` package is compiled into an executable program
 - A package with any other name is a "library package" and they simply export functionality to be used by other packages
@@ -45,3 +46,4 @@ require github.com/google/examplepackage v1.3.0
 ### Exporting
 - Only **capitalized** names are exported
 - Uncapitalized names are private
+[[Go Environment]]
