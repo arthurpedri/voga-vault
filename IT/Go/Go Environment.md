@@ -18,3 +18,7 @@ Quickly compiles and runs a Go package. The compiled binary is ==not saved== in 
 # Go Build
 `go build`
 Compiles go code into a single, statically linked executable program
+# Go Install
+`go install`
+Compiles and installs a package or packages on your local machine.
+- Installs the package's compiled binary in the `GOBIN` directory
