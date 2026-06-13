@@ -1,0 +1,1 @@
+A situation where a thread, process, or task cannot continue execution until some condition is met, such as a lock becoming available, I/O completing, or data arriving.

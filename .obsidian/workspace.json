@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Go/Go Environment.md",
+                "file": "IT/Go/Go Concurrency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Environment"
+              "title": "Go Concurrency"
             }
           }
         ],
@@ -182,11 +182,17 @@
   },
   "active": "9245f5d7cc201126",
   "lastOpenFiles": [
-    "IT/Git/Git.md",
-    "IT/Go/Go Environment.md",
-    "IT/Go/Go Conditionals.md",
     "IT/Go/Go.md",
+    "IT/Go/Go Concurrency.md",
+    "IT/Go/Go Arrays and Slices.md",
+    "IT/Concepts/Mutual Exclusion (Mutex).md",
+    "IT/Concepts/Deadlock.md",
+    "IT/Concepts/Blocking.md",
+    "IT/Concepts/Race Condition.md",
     "IT/Go/Go Packages and Modules.md",
+    "IT/Go/Go Environment.md",
+    "IT/Git/Git.md",
+    "IT/Go/Go Conditionals.md",
     "IT/Go/Go Errors.md",
     "IT/Go/Go Pointers.md",
     "IT/Go/Go IO.md",
@@ -195,7 +201,6 @@
     "IT/Go/Go Loops.md",
     "IT/Go/Go Structs.md",
     "IT/Go/Go Interfaces.md",
-    "IT/Go/Go Arrays and Slices.md",
     "IT/Go/Go Functions.md",
     "Exercise/5 Mobility Exercises.md",
     "Exercise/Flexibility through strength.md",
@@ -203,11 +208,6 @@
     "IT/Go/Go Types.md",
     "IT/Concepts/Function signatures.md",
     "IT/Concepts/Interfaces.md",
-    "IT/Linux/Linux Commands.md",
-    "IT/Linux/Linux Basics.md",
-    "IT/Concepts/Closure.md",
-    "IT/C/C.md",
-    "IT/Concepts/Memory Layout.md",
     "IT/C",
     "IT/SQL",
     "IT/Cheatsheets",

@@ -1,0 +1,1 @@
+A state where two or more threads or processes are permanently [[Blocking|blocked]] because each is waiting for a resource held by another, creating a circular dependency.

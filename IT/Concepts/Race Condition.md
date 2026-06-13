@@ -1,0 +1,1 @@
+A bug that occurs when the outcome of a program depends on the timing or order of concurrent operations on shared state, leading to unpredictable or incorrect results.

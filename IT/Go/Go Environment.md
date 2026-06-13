@@ -11,6 +11,16 @@ The `$GOPATH` environment variable will be set by default somewhere on your ma
 # Go Mod
 `go mod init {REMOTE}/{USERNAME}/module`
 Creates a `go.mod` file that specifies the go version and uses the specified module
+## A Note on “replace”
+Be aware that using the "replace" keyword like we did in the last assignment _is not advised_, but can be useful to get up and running quickly. The _proper_ way to create and depend on modules is to publish them to a remote repository. When you do that, the "replace" keyword can be dropped from the `go.mod`:
+
+This only works for local-only development:
+```go
+replace github.com/wagslane/mystrings v0.0.0 => ../mystrings
+```
+## Go Get
+`go get {REMOTE}/{USERNAME}/module`
+Requires module on `go.mod` indirectly
 # Go Run
 `go run main.go`
 Quickly compiles and runs a Go package. The compiled binary is ==not saved== in your working directory
@@ -18,6 +28,8 @@ Quickly compiles and runs a Go package. The compiled binary is ==not saved== in 
 # Go Build
 `go build`
 Compiles go code into a single, statically linked executable program
+- If it isn't a `main` package, it won't build an executable, however it will still compile the package and save it to our local build cache
+    - Useful for checking compile errors
 # Go Install
 `go install`
 Compiles and installs a package or packages on your local machine.
