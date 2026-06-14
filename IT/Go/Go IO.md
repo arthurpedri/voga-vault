@@ -14,6 +14,7 @@ s := fmt.Sprintf("I am %v years old", "way too many")
 - `%s`: Strings
 - `%d`: Integers
 - `%f` or `%.2f`: Floats
+- `%w`: Preservers the original error (Can be found even if wrapped multiple times)
 
 [[Go Runes]]
 

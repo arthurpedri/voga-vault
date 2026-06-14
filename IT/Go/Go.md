@@ -21,7 +21,7 @@
 [[Go Maps]]
 [[Go Environment]]
 
-
+[[Go Generics]]
 [[Go Pointers]]
 [[Go Packages and Modules]]
 

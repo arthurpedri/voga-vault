@@ -56,3 +56,6 @@ if _, ok := attended[person]; ok {
 }
 attended["name"] = struct{}{} // uses 0 bytes for the empty struct
 ```
+## Maps are not [[Thread Safety|thread-safe]]
+Maps are **not** safe for concurrent use! If you have multiple goroutines accessing the same map, and at least one of them is writing to the map, you must lock your maps with a [[Go Concurrency#Mutexes|mutex]]. 
+- They are only safe for concurrent read access
