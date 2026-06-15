@@ -1,0 +1,11 @@
+## How to build the project
+- A project that resonates with employers
+- Follow a design pattern (For example MVC)
+- Clean / Professional UI (For example bootstrap template)
+- Database (With CRUD)
+- Authentication (Login) (For example Auth0)
+- Authorization (Permissions) (For example Auth0)
+- Solve a business problem
+- Make Software requirements
+- Separate requirements into sprints
+- Example: [[Issue Tracker project]]

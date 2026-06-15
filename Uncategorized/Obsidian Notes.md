@@ -3,3 +3,4 @@
 - ### Random notes
 # Embedding
 ![[Obsidian Notes#Useful plugins]]
+
