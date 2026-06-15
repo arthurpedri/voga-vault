@@ -15,6 +15,8 @@ s := fmt.Sprintf("I am %v years old", "way too many")
 - `%d`: Integers
 - `%f` or `%.2f`: Floats
 - `%w`: Preservers the original error (Can be found even if wrapped multiple times)
+## Multi-line string
+You can use a backtick (`` ` ``) to create a multi-line string in Go.
 
 [[Go Runes]]
 
@@ -45,3 +47,6 @@ Index returns the index of the first instance of substr in s, or -1 if substr is
 func ReplaceAll(s, old, new string) string
 ```
 ReplaceAll returns a copy of the string s with all non-overlapping instances of old replaced by new. If old is empty, it matches at the beginning of the string and after each UTF-8 sequence, yielding up to k+1 replacements for a k-rune string.
+
+## Decoding JSON
+![[Go Package encoding json#Decoding]]
