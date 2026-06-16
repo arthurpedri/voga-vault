@@ -1,0 +1,2 @@
+A _subdomain_ prefixes a domain name, allowing a domain to route network traffic to many different servers and resources.
+- For example, [docs.github.com](https://docs.github.com/) is a subdomain of `github.com`. The `docs` subdomain likely routes to a different server than the main `github.com` domain.
