@@ -180,12 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81f9f573ac30d98d",
+  "active": "3cab8c6b66cbafcc",
   "lastOpenFiles": [
-    "IT/Concepts/Networking/Subdomain.md",
-    "IT/Concepts/Networking/URI.md",
-    "IT/Concepts/Networking/DNS.md",
     "IT/Languages/Go/Go Packages/Go Package net url.md",
+    "attachments/URLpieces.png",
+    "Unconfirmed 16487.crdownload",
+    "IT/Concepts/Networking/URI.md",
+    "Cooking/Recipes/Grilled Marinated Salmon.md",
+    "IT/Concepts/Networking/Subdomain.md",
+    "IT/Concepts/Networking/DNS.md",
     "IT/Languages/Go/Go Maps.md",
     "IT/Languages/Go/Go Conditionals.md",
     "IT/Languages/Go/Go Packages/Go Package encoding json.md",
@@ -209,8 +212,6 @@
     "IT/Concepts/Data Structures/Binary Search Trees (BST).md",
     "IT/Concepts/Data Structures/Data Structures Examples.md",
     "IT/Concepts/Data Structures/Graphs.md",
-    "Writing/Worst Ways to Start a Story.md",
-    "Writing/Exercises to start writing.md",
     "attachments/ellipsesinplanesexercise.jpg",
     "attachments/colorruleex2.png",
     "attachments/colorruleex1.png",
@@ -221,13 +222,11 @@
     "IT/Concepts/Operating Systems",
     "IT/Concepts/Programming",
     "IT/Concepts/Performance",
-    "IT/Concepts/Data Representation",
     "attachments/funnelsexercise.jpg",
     "attachments/gradientdescentconverging.png",
     "attachments/Pasted image 20241217221518.png",
     "attachments/vimcheatsheetDark.png",
     "attachments/tableofellipsesexercise.jpg",
-    "Code/vimcheatsheetDark.png",
     "Untitled.canvas"
   ]
 }
