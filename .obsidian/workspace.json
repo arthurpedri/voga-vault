@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Concepts/Networking/URI.md",
+                "file": "IT/Concepts/Networking/HTTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "URI"
+              "title": "HTTP"
             }
           }
         ],
@@ -180,12 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cab8c6b66cbafcc",
+  "active": "81f9f573ac30d98d",
   "lastOpenFiles": [
+    "IT/Tools/Browser Developers Tools.md",
+    "IT/Languages/Go/Go Packages/Go Package net http.md",
+    "IT/Concepts/Networking/HTTP.md",
+    "IT/Concepts/Networking/URI.md",
     "IT/Languages/Go/Go Packages/Go Package net url.md",
     "attachments/URLpieces.png",
     "Unconfirmed 16487.crdownload",
-    "IT/Concepts/Networking/URI.md",
     "Cooking/Recipes/Grilled Marinated Salmon.md",
     "IT/Concepts/Networking/Subdomain.md",
     "IT/Concepts/Networking/DNS.md",
@@ -193,7 +196,6 @@
     "IT/Languages/Go/Go Conditionals.md",
     "IT/Languages/Go/Go Packages/Go Package encoding json.md",
     "IT/Languages/Go/Go Loops.md",
-    "IT/Languages/Go/Go Packages/Go Package net http.md",
     "IT/Languages/Go/Go Packages/Go Package io.md",
     "IT/Languages/Go/Go IO.md",
     "IT/Languages/Go/Go Interfaces.md",
@@ -204,7 +206,6 @@
     "IT/Languages/Go/Go Packages",
     "Go Package net/http.md",
     "Go Package net",
-    "IT/Concepts/Networking/HTTP.md",
     "IT/Projects/Liar Game app.md",
     "IT/Concepts/Data Structures/Trie (Prefix Tree).md",
     "IT/Concepts/Data Structures/Red-Black Trees.md",
