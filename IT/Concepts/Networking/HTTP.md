@@ -15,8 +15,16 @@ HTTP requests from a web browser automatically carry with them many headers, inc
 As developers, we can also define custom headers in each request.
 ## Why Are Headers Useful?
 
-Headers are useful for several reasons from design to security, but most often headers are used for [metadata](https://en.wikipedia.org/wiki/Metadata) _about_ the request or response itself. For example, let's say we wanted to ask for a specific project from the Jello server. We need to send that project's ID to the server so it knows which project to send back the information for. That ID _is my request_, it's not information _about my request_. However, we might include headers in that request to pass along extra information - like _who_ is making the request.
+Headers are useful for several reasons from design to security, but most often headers are used for [metadata](https://en.wikipedia.org/wiki/Metadata) _about_ the request or response itself. 
+For example, let's say we wanted to ask for a specific project from the Jello server. We need to send that project's ID to the server so it knows which project to send back the information for. That ID _is my request_, it's not information _about my request_. However, we might include headers in that request to pass along extra information - like _who_ is making the request.
 
 [Authentication](https://auth0.com/intro-to-iam/what-is-authentication/) is a common use case for headers. If I ask Jello to complete a project, I need to provide authentication information that I'm logged in, but that auth info isn't the request itself, it's just _additional information_ about the request.
 
 # Methods
+HTTP defines a set of [methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). We must choose one to use each time we make an HTTP request. The most common ones include:
+- `GET`
+- `POST`
+- `PUT`
+- `DELETE`
+## Get
+The [GET method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) is used to "get" a _representation_ of a specified resource. It doesn't _take_ (remove) the data from the server but rather _gets_ a representation, or copy, of the resource in its current state. A GET request is considered a [_safe_](https://developer.mozilla.org/en-US/docs/Glossary/Safe/HTTP) method to call multiple times because it shouldn't alter the state of the server.
