@@ -2,7 +2,6 @@
 
 # Response
 
-
 # Using URLs in HTTP
 The `http://` at the beginning of a website URL specifies that the `http` protocol will be used for communication.
 
@@ -28,3 +27,26 @@ HTTP defines a set of [methods](https://developer.mozilla.org/en-US/docs/Web/HT
 - `DELETE`
 ## Get
 The [GET method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) is used to "get" a _representation_ of a specified resource. It doesn't _take_ (remove) the data from the server but rather _gets_ a representation, or copy, of the resource in its current state. A GET request is considered a [_safe_](https://developer.mozilla.org/en-US/docs/Glossary/Safe/HTTP) method to call multiple times because it shouldn't alter the state of the server.
+## Post
+An [HTTP POST request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) _sends_ data to a server, typically to _create_ a new resource.
+### Adding a Body
+The `body` of the request is the _payload_ sent to the server. The special `Content-Type` header is used to tell the server the format of the body: `application/json` for JSON data in our case. `POST` requests are generally _not_ safe methods to call multiple times because that would create duplicate records. For example, you wouldn't want to accidentally send a tweet twice.
+
+# Status Codes
+The `Status Code` of an HTTP _response_ tells the client whether or not the server was able to fulfill the request. Status codes are 3-digit numbers that are grouped into categories:
+
+- `100-199`: Informational responses. These are very rare.
+- `200-299`: Successful responses. Hopefully, most responses are 200's!
+- `300-399`: Redirection messages. These are typically invisible because the browser or HTTP client will automatically do the redirect.
+- `400-499`: Client errors. You'll see these often, especially when trying to debug a client application
+- `500-599`: Server errors. You'll see these sometimes, usually only if there is a bug on the server.
+
+Here are some of the most common status codes, but there is also a [full list here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) if you're interested.
+
+- `200` - OK. This is by far the most common code, it just means that everything worked as expected.
+- `201` - Created. This means that a resource was created successfully. Typically in response to a `POST` request.
+- `301` - Moved permanently. This means the resource was moved to a new place, and the response will include where that new place is. Websites often use `301` redirects when they change their domain name, for example.
+- `400` - Bad request. A general error indicating the client made a mistake in their request.
+- `401` - Unauthorized. This means the client doesn't have the correct permissions. Maybe they didn't include a required authorization header, for example.
+- `404` - Not found. You'll see this on websites quite often. It just means the resource doesn't exist.
+- `500` - Internal server error. This means something went wrong on the server, likely a bug on their end.

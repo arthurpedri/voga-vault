@@ -55,7 +55,7 @@ fmt.Println("last modified: ", header)
 // deleting a header from the response
 res.Header.Del("last-modified")
 ```
-# Making a GET Request in Go
+# GET Requests
 
 There are two basic ways to make a Get request in Go.
 1. The simple but less powerful way: [`http.Get`](https://pkg.go.dev/net/http#Get)
@@ -80,3 +80,28 @@ if err != nil {
 
 resp, err := client.Do(req)
 ```
+# Post Requests
+Like `http.Get`, the standard library's [`http.Post`](https://pkg.go.dev/net/http#Post) function can be used to send simple `POST` requests.
+- It can also be further elaborated using custom `http.Client` and `http.NewRequest`
+```go
+    // create a new request
+	req, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
+	if err != nil {
+		return Comment{}, err
+	}
+
+    // set request headers
+	req.Header.Set("Content-Type", "application/json")
+    req.Header.Set("X-API-Key", apiKey)
+
+    // create a new client and make the request
+	client := &http.Client{}
+	res, err := client.Do(req)
+	if err != nil {
+		return Comment{}, err
+	}
+	defer res.Body.Close()
+```
+
+# Response
+- `http.Response.StatusCode` is a property that contains the status code of the response.
