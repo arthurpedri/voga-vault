@@ -32,6 +32,21 @@ An [HTTP POST request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Method
 ### Adding a Body
 The `body` of the request is the _payload_ sent to the server. The special `Content-Type` header is used to tell the server the format of the body: `application/json` for JSON data in our case. `POST` requests are generally _not_ safe methods to call multiple times because that would create duplicate records. For example, you wouldn't want to accidentally send a tweet twice.
 
+## Put
+The HTTP [`PUT`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) method creates _or more commonly, updates_ the target resource with the contents of the request's `body`.
+### POST vs. PUT
+While `POST` and `PUT` are both used for creating resources, `PUT` is more common for updates and is [idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent), meaning it's safe to make the same request multiple times without changing the server state more than once. For example:
+```
+POST /users/bob (create bob user)
+POST /users/bob (create duplicate bob user)
+POST /users/bob (create duplicate bob user)
+```
+
+```
+PUT /users/bob (create bob user if it doesn't exist)
+PUT /users/bob (update bob user with the same data)
+PUT /users/bob (update bob user with the same data)
+```
 # Status Codes
 The `Status Code` of an HTTP _response_ tells the client whether or not the server was able to fulfill the request. Status codes are 3-digit numbers that are grouped into categories:
 

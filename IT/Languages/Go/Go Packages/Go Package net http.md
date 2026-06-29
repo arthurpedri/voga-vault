@@ -103,5 +103,7 @@ Like `http.Get`, the standard library's [`http.Post`](https://pkg.go.dev/net/h
 	defer res.Body.Close()
 ```
 
+# Put Requests
+Unlike `GET` and `POST`, there is no `http.Put` function. You will have to create a raw `http.Request` that an `http.Client` can [`Do`](https://pkg.go.dev/net/http#Client.Do).
 # Response
 - `http.Response.StatusCode` is a property that contains the status code of the response.
