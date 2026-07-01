@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT/Languages/Go/Go Packages/Go Package encoding json.md",
+                "file": "Casa/Eletrodomésticos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go Package encoding json"
+              "title": "Eletrodomésticos"
             }
           }
         ],
@@ -182,8 +182,8 @@
   },
   "active": "81f9f573ac30d98d",
   "lastOpenFiles": [
-    "IT/Languages/Go/Go Packages/Go Package net http.md",
     "IT/Languages/Go/Go Packages/Go Package encoding json.md",
+    "IT/Languages/Go/Go Packages/Go Package net http.md",
     "IT/Concepts/Networking/HTTP.md",
     "IT/Tools/Browser Developers Tools.md",
     "IT/Concepts/Networking/URI.md",
