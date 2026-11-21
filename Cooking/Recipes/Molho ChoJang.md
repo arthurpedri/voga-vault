@@ -1,0 +1,1 @@
+Gochujang com vinagre e acucar, bom pra frutos do mar

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Casa/Eletrodomésticos.md",
+                "file": "Cooking/Recipes/Molho miso com amendoim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Eletrodomésticos"
+              "title": "Molho miso com amendoim"
             }
           }
         ],
@@ -43,7 +43,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -182,6 +184,26 @@
   },
   "active": "81f9f573ac30d98d",
   "lastOpenFiles": [
+    "Cooking/Recipes/Molho ChoJang.md",
+    "Cooking/Recipes/Molho miso com amendoim.md",
+    "Cooking/Recipes/Molho funghi com frango.md",
+    "Cooking/Recipes/Asa de frango congelada com molho.md",
+    "Cooking/Recipes/Molho Tare.md",
+    "Cooking/Recipes/Kong Guksu.md",
+    "Cooking/Recipes/Grilled Marinated Salmon.md",
+    "Cooking/Recipes/Crispy Cheese Gamja-Jeon.md",
+    "Cooking/Recipes/Creamy Crab Croquette.md",
+    "Cooking/Recipes/Cheesy Cabbage Roll Katsu.md",
+    "Cooking/Recipes/Bibimbap.md",
+    "Cooking/Rice.md",
+    "Cooking/Knife care.md",
+    "Cooking/Boiling Chicken.md",
+    "Cooking/Air Fryer.md",
+    "Games/Rog Crafting League Start.md",
+    "Games/Future PoE Sounds.md",
+    "Casa/Lista pra casa nova.md",
+    "Casa/Ferramentas.md",
+    "Casa/Eletrodomésticos.md",
     "IT/Languages/Go/Go Packages/Go Package encoding json.md",
     "IT/Languages/Go/Go Packages/Go Package net http.md",
     "IT/Concepts/Networking/HTTP.md",
@@ -190,29 +212,9 @@
     "IT/Languages/Go/Go Packages/Go Package net url.md",
     "attachments/URLpieces.png",
     "Unconfirmed 16487.crdownload",
-    "Cooking/Recipes/Grilled Marinated Salmon.md",
-    "IT/Concepts/Networking/Subdomain.md",
-    "IT/Concepts/Networking/DNS.md",
-    "IT/Languages/Go/Go Maps.md",
-    "IT/Languages/Go/Go Conditionals.md",
-    "IT/Languages/Go/Go Loops.md",
-    "IT/Languages/Go/Go Packages/Go Package io.md",
-    "IT/Languages/Go/Go IO.md",
-    "IT/Languages/Go/Go Interfaces.md",
-    "IT/Languages/Go/Go Types.md",
-    "IT/Concepts/Data Formats/XML.md",
-    "IT/Concepts/Data Formats/JSON.md",
-    "IT/Languages/Go/Go Packages and Modules.md",
     "IT/Languages/Go/Go Packages",
-    "Go Package net/http.md",
     "Go Package net",
-    "IT/Projects/Liar Game app.md",
-    "IT/Concepts/Data Structures/Trie (Prefix Tree).md",
-    "IT/Concepts/Data Structures/Red-Black Trees.md",
     "attachments/leftrotationRBT.png",
-    "IT/Concepts/Data Structures/Binary Search Trees (BST).md",
-    "IT/Concepts/Data Structures/Data Structures Examples.md",
-    "IT/Concepts/Data Structures/Graphs.md",
     "attachments/ellipsesinplanesexercise.jpg",
     "attachments/colorruleex2.png",
     "attachments/colorruleex1.png",

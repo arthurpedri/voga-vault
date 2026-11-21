@@ -1,3 +1,0 @@
-- Desentupidor de vaso
-- Tupperware/Containers de comida retangulares, não circulares
-- Geladeira 185x73cm(Profundidade +- 60cm)
