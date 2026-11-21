@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true
 }

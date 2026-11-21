@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Recipes/Molho miso com amendoim.md",
+                "file": "Cooking/Recipes/Peanut noodle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Molho miso com amendoim"
+              "title": "Peanut noodle"
             }
           }
         ],
@@ -184,8 +184,9 @@
   },
   "active": "81f9f573ac30d98d",
   "lastOpenFiles": [
-    "Cooking/Recipes/Molho ChoJang.md",
     "Cooking/Recipes/Molho miso com amendoim.md",
+    "Cooking/Recipes/Peanut noodle.md",
+    "Cooking/Recipes/Molho ChoJang.md",
     "Cooking/Recipes/Molho funghi com frango.md",
     "Cooking/Recipes/Asa de frango congelada com molho.md",
     "Cooking/Recipes/Molho Tare.md",
@@ -209,7 +210,6 @@
     "IT/Concepts/Networking/HTTP.md",
     "IT/Tools/Browser Developers Tools.md",
     "IT/Concepts/Networking/URI.md",
-    "IT/Languages/Go/Go Packages/Go Package net url.md",
     "attachments/URLpieces.png",
     "Unconfirmed 16487.crdownload",
     "IT/Languages/Go/Go Packages",
