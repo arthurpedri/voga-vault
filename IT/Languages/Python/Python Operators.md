@@ -10,6 +10,17 @@ x *= 4  # x is 16
 x /= 4  # x is 1.0
 x %= 4  # x is 0
 ```
+## Bitwise
+```python
+0b0101 & 0b0111
+binary_five = 0b0101
+binary_seven = 0b0111
+binary_five & binary_seven
+# equals 5
+
+0b0101 | 0b0010 == 0b0111
+# True
+```
 
 ## Slice Operator
 ```python
